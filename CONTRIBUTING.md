@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/phoenixforgeai-typ-typescript.git
+$ npm install git+ssh://git@github.com:irrigationsolutions2391-pixel/stainless-api-cli.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/phoenixforgeai-typ-typescript
-$ cd phoenixforgeai-typ-typescript
+$ git clone https://www.github.com/irrigationsolutions2391-pixel/stainless-api-cli
+$ cd stainless-api-cli
 
 # With yarn
 $ yarn link
