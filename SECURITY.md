@@ -16,11 +16,7 @@ before making any information public.
 ## Reporting Non-SDK Related Security Issues
 
 If you encounter security issues that are not directly related to SDKs but pertain to the services
-or products provided by Stainless, please follow the respective company's security reporting guidelines.
-
-### Stainless Terms and Policies
-
-Please contact local-dev@stainless.com for any questions or concerns regarding the security of our services.
+or products provided by Ancient Healings Pro, please follow the respective company's security reporting guidelines.
 
 ---
 

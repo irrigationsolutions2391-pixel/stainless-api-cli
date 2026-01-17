@@ -1,4 +1,4 @@
-configured_endpoints: 20
-openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/stainless%2Fstainless-v0-14899ed94f51eb27170c1618fcdb134c6df08db90996eeec2f620eb8d84c604a.yml
-openapi_spec_hash: a4cf6948697a56d5b07ad48ef133093b
-config_hash: f1b8a43873719fc8f2789008f3aa2260
+configured_endpoints: 19
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/flores-landscape-and-design-llc%2Fancient-healings-pro-21652c2d2e6a5aab678ca435ba09ef698ff34270021f349660b84d5d98bf3923.yml
+openapi_spec_hash: 356a7298b2abac3fdf72ad5ee046b952
+config_hash: e4d67f53711f5bb3df60b2e3c4713b54
