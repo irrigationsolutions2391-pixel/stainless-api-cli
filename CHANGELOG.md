@@ -1,1017 +1,211 @@
 # Changelog
 
-## 0.1.0-alpha.65 (2025-12-22)
+## 0.1.0 (2026-01-17)
 
-Full Changelog: [v0.1.0-alpha.64...v0.1.0-alpha.65](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.64...v0.1.0-alpha.65)
+Full Changelog: [v0.0.1...v0.1.0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/compare/v0.0.1...v0.1.0)
 
 ### Features
 
-* added mock server tests ([f62abc2](https://github.com/stainless-api/stainless-api-cli/commit/f62abc2e06e2a0f85e57a22a956e3d9272fd65b2))
+* [WIP] add branch rebasing to the API ([f1aafe1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f1aafe1aecea2c92f9b57c60bcd2c01b2afa0145))
+* add better suggests when commands don't match ([9cce935](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/9cce93587604524348eacdd4f88b1bae5d988f40))
+* add callout at project creation ([89f653d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/89f653d53a73dc8cf2333786e67d22371e94836d))
+* add diagnositcs count ([108f5b0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/108f5b07a06fd1035680a6e14538c3d624e11bf4))
+* add download to dev mode ([65bfa33](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/65bfa333fb27c34443b99352165317a6446b2176))
+* add init command ([cdc5b1e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/cdc5b1e22296fcf9a7cf93a2420c6fefc36f2f14))
+* add links to dev mode ([5ac3856](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5ac385638286a6f3a033f5309745c598c8b4bcaa))
+* add path to config output ([337e398](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/337e39801add96fbe48326ab3cd6934baacf404e))
+* add remote if it doesn't exist ([8a59888](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/8a59888519c4104c268d97c8cb2f9e69735b0b99))
+* add some polish around confirm dialogs ([c3b69bb](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c3b69bb3d263e53b727f3b8be748b97080c402b3))
+* add spinner for project creation ([22f1900](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/22f190068982b46688745c7ec04f79adea2ad0d8))
+* add targets to workspace config ([3153e61](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3153e612bb999aba0bc408a7780ec5b3b23534b8))
+* add User-Agent ([f501a3b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f501a3bc392946d5e5d97f400c237740445ab856))
+* added `--output-filter` flag and `--error-format` flag to support better visualization options ([2768e5b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/2768e5b0255ae79e44ed54f583c4809f19801afe))
+* added mock server tests ([c9a5ae9](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c9a5ae9cf96b667137381917625aa43da8b269c9))
+* **ai:** build APIs take SDK level commit messages & new gate for AI commit messages ([6aabbec](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6aabbecdcf6a3c68d9ea47ab90bbffb320671f6b))
+* **api:** add branch reset functionality ([b0df2a1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b0df2a1520a8c57fb854e8dc3b133ce195c122d5))
+* **api:** docs ([b9b5882](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b9b5882bf98cb88f54f05733fb451f73d9320854))
+* **api:** manual updates ([675bb4d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/675bb4db7e83cf518f2ce92b387ea410f71721ca))
+* **api:** manual updates ([3ea43cc](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3ea43ccfcc44efa7f7746646dd6d06821365ca69))
+* **api:** manual updates ([75765d0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/75765d06579f8b014a85613ac7f5a4933bb28cc5))
+* **api:** resources and methods now use kebab-case instead of snake_case ([f22defd](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f22defd6410895e51311b90fc074c57633910c72))
+* **api:** update go_sdk_version ([bfcd838](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/bfcd838ef3d3463ea02528699b2aa4bde46ebbac))
+* arguments now have defaults and descriptions ([d6af393](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d6af3938ee758b656641451c6f805f61fb0966a8))
+* **auth:** add descriptive device names with hostname and OS info ([e50a283](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e50a283fd370640d99a0416b982ca58e4cb5b825))
+* better support for positional arguments ([799d88f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/799d88f441c5d1d5dca82a5590fceefdc1823f42))
+* change next steps padding ([b55fbc2](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b55fbc2563ef30a207cff271711e732b1912038e))
+* checkout branch if we can ([181715f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/181715f1ea01494927c6cff28a760f3e49aa3e93))
+* clean up messages / formatting ([dcaa8ac](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/dcaa8acb11211a3dfee51f21db2a30f5fdfd4d9d))
+* **cli:** automatic streaming for paginated endpoints ([a0a6a1a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a0a6a1afea5b3cf33360cd26801d9eefa40f5fcf))
+* **cli:** binary request bodies ([fed3893](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fed3893d9c12f5bfca51df7fa2bf5ac6815e6763))
+* convert paths to absolute path in the .stainless/workspace.json ([d5062fb](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d5062fbf9048cd23c6e7d70b288f8fc4f8dadf84))
+* don't print project json on init ([55a610a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/55a610ae0e86647b722e781b17effd8a4fbf3d33))
+* Expose connection-specific decorated OAS ([6ae9059](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6ae90591a0c260b18b53f5e86b0d4fb6a1b93f91))
+* fix builds:target-outputs --pull ([0ed321b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0ed321bdbf3240ae96852f8a7f57e7118f7aae92))
+* fix builds:target-outputs --pull ([bc30dca](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/bc30dca384e787007772984372ef7047a03473cd))
+* fix edge cases for sending request data and add YAML support ([838c2f2](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/838c2f287cfa4ae271738dbc36c69efa308b5f6c))
+* fix spacing between waiting for build and pulling outputs ([a9be02d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a9be02d38890c3292e941a00165493a973598587))
+* fix workspace init command ([e9b9473](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e9b94730e315b9687cad6265f7187bb20070a64d))
+* flesh out project branches endpoints ([e750d6e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e750d6ed322f3da8779a20c524521372f623f366))
+* flesh out project branches endpoints ([02ae305](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/02ae3052a625cb30a4a534383c416287171cbf4b))
+* handle merge conflicts better ([99b337f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/99b337f94ec8983f1a6696dfb1de9bd93bf94fd9))
+* improve autofill project name logic ([da87d19](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/da87d193815db8c5f2fd28cf1f4614a49ef12583))
+* improve form styling ([1b690d0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1b690d0fa2ee333f4f61a34164162461e1914bde))
+* improve next steps wording ([445744e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/445744ea65ff013c49854029e7df71a40ecdb2bb))
+* improve output grouping ([dc976f9](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/dc976f9d63ea14101c415470fd4d285a74539744))
+* improve project create form ([321fc95](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/321fc9538e8a79c0577bd89a5fa92d796b135408))
+* improved formatting options for command outputs ([010d5d2](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/010d5d24094f590d96f9f2319ab5efb49eac20bb))
+* improved formatting options for command outputs ([c10efcc](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c10efcc64aad1857a9367d005e6bde1a7ad43283))
+* infer branch better ([d4b8d23](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d4b8d2347f2eb4ec9a9d870868d08d582fad6116))
+* make --branch no longer required ([1b670f3](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1b670f31039e0b3cfabb229e36553706b81645fb))
+* make build resolve much faster ([be63e9d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/be63e9db021fd1bde4fac377e876e55344ab5450))
+* make openapi path relative ([f6efb74](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f6efb74c9832147d8d4e79f52750ba96d2168c53))
+* new and simplified CLI flag parsing code and YAML support ([0ad1e2c](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0ad1e2c7f6ad7defe1736e934b138bcdd5ed4c65))
+* now ships with manpages ([ead4413](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/ead4413e18a94fc508fab9aeb775908f5b087af9))
+* port some init logic to workspace init ([68e8d39](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/68e8d3938d6a5c10d7e63641e19e7d96c225c8d7))
+* pull targets from init ([5192fa4](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5192fa4b626f774c0c4096a3c15ecd93fca2e9ca))
+* redact `Authorization` header when using debug option ([7c7714d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/7c7714dff2d76be5afd1216b2bb44c700ba12ca4))
+* redact secrets from other authentication headers when using debug option ([5d377de](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5d377de34bd567b2435549423d6e63c67e8ba39a))
+* remove stainless config uploading to the project create endpoint ([cb5f22f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/cb5f22f445d933a1ebef82803df26e6cd7f61191))
+* remove too much choice from init flow ([7d8c420](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/7d8c4200ac65adb1f750a1563f9ce00eb8cfc6f1))
+* rename init-workspace flag to workspace-init ([64b7c97](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/64b7c97e50c60051b37ceb5585440848888432e9))
+* show error if download fails ([ec2bc31](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/ec2bc31e14184cb5a89152b4435ca0260c590d93))
+* show full error message on fatal error ([27530b1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/27530b197ac500e1d120c9b91065c8bbbee07de1))
+* show status code and route for errors ([5574498](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5574498d6b9685b3b59039b251602b97db725204))
+* simplify getAPICommandContext ([42d0c62](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/42d0c62e98cd1af7f507ac8f2122bd6d0505201b))
+* skip downloads for builds with fatal commit conclusions ([314b1ab](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/314b1ab050ba035b0f754f135e0a5d953e2e7ded))
+* skip downloads in dev mode for fatal commit conclusions ([cddb805](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/cddb80588419d8c9bb571989f300cfa6f98ff1d5))
+* skip ignored diagnostics ([6450511](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/645051160e4d8685b632bffa693c682b8c97073a))
+* strip http login url ([fe37a30](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fe37a30b47963e4582b488aa97f401bbe8e03b33))
+* support reading from config.Targets in builds create ([e794909](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e794909d2b23d1fb31d27dfe58268bfe7a234d2d))
+* update target download logic ([1b10a24](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1b10a24a5aae467de9796479b1057c0f85972c54))
+* use checkmark for multiselect ([c0480b4](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c0480b4bbe522de79d74559921fc3b4a84df3d6f))
+* use getAvailableTargetInfo for preselected builds ([1d07b34](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1d07b3424ac86c3c058b0796e8bcaea413296e13))
+* use scope:"*" ([6b45c41](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6b45c41e78d6992355533234986ee07f212d92c0))
+* wait for organization creation in CLI ([e15f5a7](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e15f5a7b6afffa77c621f0f2f24e1934ec30ad3b))
 
 
 ### Bug Fixes
 
-* base64 encoding regression ([967d82c](https://github.com/stainless-api/stainless-api-cli/commit/967d82c469ec3f7aca4946c2f3bd4a32f848f7df))
-* fix generated flag types and value wrapping ([b8293dc](https://github.com/stainless-api/stainless-api-cli/commit/b8293dcb107347ac57b692d540951b3c09350914))
+* add retries to project config retrieve ([8f5dc2a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/8f5dc2aaad306028c36c5179b5963dadc82c62db))
+* **api:** switch 'targets' query param to comma-delimited string in diagnostics endpoint ([103fbed](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/103fbed7c66ad1c27782f133638a5d0b08a92305))
+* base64 encoding regression ([868f9cf](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/868f9cfbbb6e4cd55fbe690bd536a816844cc34d))
+* **cli:** fix compilation on Windows ([271fa15](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/271fa15b5d1968013ee01d3b24ba8c43a677f2f9))
+* **cli:** remove `*.exe` files from customer SDK changes ([e9ddb3d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e9ddb3d8dcb3add48463107382c29aef1437f6bb))
+* codegen merge conflict issues ([a658215](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a658215338454e287a6c9d2b4b9b941c2efc2086))
+* consider merge conflict done ([d767ea9](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d767ea95a99a58b8da89188a573004367dda56ee))
+* don't set openapi-spec if revision is set ([445baa6](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/445baa6e4a574aca26b26a47244890d58f83c768))
+* don't unconditionally indent forms ([bb256c5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/bb256c5b6c6d22b08045da0ba6f12afbcb877d8d))
+* dont crash when git user is not available ([08458df](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/08458df4dd508a59855ba885a45555e1a722a338))
+* downgrade urfave/cli-docs dependency ([6b4c1ac](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6b4c1accf900e7b7e6266873fa46e7153b15e7ec))
+* fix auth issue ([04ea995](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/04ea9955373230308c59ffe804696547e094b0cd))
+* fix builds for non-public Go repos ([725ff05](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/725ff05a2078bef1e4081e8a19bc3be12ce20a0f))
+* fix diagnostic iteration ([bd8ce45](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/bd8ce45278e05dcc90ee88bdb9dfb9225345c0f9))
+* fix for default flag values ([301fea8](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/301fea8307e94cea276f5d0292134c78af5d7a32))
+* fix for empty request bodies ([75271be](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/75271be38addf5f76672f8232c5341e2a83590a1))
+* fix for issue with nil responses ([bb96e42](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/bb96e42726d8176fb4dbbb7d4c6d58bf07607264))
+* fix generated flag types and value wrapping ([e6e0b35](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e6e0b35c373dd1aea183a38d433a31903fbb3ed8))
+* fix git fetch when building branch ([db22294](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/db222946428c9465f48001beb171859e4034d6ec))
+* fix go client version bump issues ([b8ac65c](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b8ac65c8c6affb3a868c89b760a8c34675d8f4c2))
+* fix init auth ([eb690d4](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/eb690d4f4c4283f7babd90cbb728b77b3bd154fd))
+* fix merge conflict issues ([052d41e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/052d41ef3322dd9d56e9bd5580554098ebe38bbe))
+* fix middleware with empty body ([11fc0ed](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/11fc0edc8e49db3d0bb7afa63f39f53d877947ab))
+* fixed manpage generation ([6b0422e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6b0422e2a350c00370afab560d017574a8df69c0))
+* generate flags for parameters specified by client ([1d1d046](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1d1d046de9b12a7058e4e2c3d1722111bc125189))
+* handle edge cases in build view component better ([fd28d4f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fd28d4f1f3ba92b9eb6920cf3d46ff17c2701752))
+* **homebrew:** homebrew distribution should work now ([92f4494](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/92f44942a30e3d76d305f2d4a5c1fb5a12ff802e))
+* ignore .exe files ([6c12447](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6c12447f92bd77e846f4d00145fc0923d2e2bc3b))
+* improve diagnostics printing ([131d240](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/131d24069232c6dda2987e47aad4364fdaaec643))
+* improve file paths rendering ([a9b211b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a9b211b38fb3fb49be1dc244000858a7a8c9ed8e))
+* improve printing of diagnostics when no diagnostics are there ([0e263df](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0e263df9a50f88a717d3caae532e29ff0cc0589e))
+* lint error ([348101a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/348101afcf038b8a977e8168af1495829b84390f))
+* **mcp:** correct code tool API endpoint ([65b6255](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/65b6255496e80bca64c126da472408afe88afa26))
+* more merge conflict issues ([544ae63](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/544ae635c760b9622ef46fdbae4b626cfa0c91ff))
+* paginated endpoints now behave better with pagers by default ([175af5c](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/175af5c0230fe195a854349468223950bd01cc75))
+* pass through context parameter correctly ([b687ba8](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b687ba894a88ac8367d077d8e38c4d4ddfa970d5))
+* prompt before opening browser ([3503981](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/350398130bc2b042b0e9079e2e5ded2600ceb6b7))
+* remove debug logging ([0a77f0d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0a77f0dd2d3902902284b14a5f459a28864c717f))
+* remove some bootstrapping logic ([a3f713d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a3f713d5551ca6c0b6d1bdf4d83999652c15d9cf))
+* remove unused os import ([2079344](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/2079344e4ad0a773ad254c04df8d2512fc995c08))
+* some methods no longer require a prefix ([30f5938](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/30f5938eebb9fc301a1c99ce0f5e9e90dac40753))
+* unwrap content for stainless config ([5b78163](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5b781633b96d470a7922400f4b6fc343fc66f586))
 
 
 ### Chores
 
-* **cli:** run pre-codegen tests on Windows ([7dd0ffb](https://github.com/stainless-api/stainless-api-cli/commit/7dd0ffba4c671678883eedb41b29dd1816b970da))
-* **internal:** codegen related update ([c439ed6](https://github.com/stainless-api/stainless-api-cli/commit/c439ed63774cae542fa6eac8d01095a272061be9))
-* **internal:** codegen related update ([f9e9d7d](https://github.com/stainless-api/stainless-api-cli/commit/f9e9d7dbcca54b2df0cde1c84e4bc65f525ef786))
-
-## 0.1.0-alpha.64 (2025-12-17)
-
-Full Changelog: [v0.1.0-alpha.63...v0.1.0-alpha.64](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.63...v0.1.0-alpha.64)
-
-### Bug Fixes
-
-* **cli:** remove `*.exe` files from customer SDK changes ([7809497](https://github.com/stainless-api/stainless-api-cli/commit/780949761c6b49604cb8f18678468f57a38b149c))
-* generate flags for parameters specified by client ([51b1031](https://github.com/stainless-api/stainless-api-cli/commit/51b1031279571583416a497fc62f6f3b58e3a0a9))
-
-
-### Chores
-
-* **cli:** add `*.exe` files back to `.gitignore` ([7882fe1](https://github.com/stainless-api/stainless-api-cli/commit/7882fe18ed7ed8d48d885ce836b437af98863abf))
-* **cli:** move `jsonview` subpackage to `internal` ([e3b1c70](https://github.com/stainless-api/stainless-api-cli/commit/e3b1c70a58df206773c0548ed6bc674a835421a0))
-* **cli:** temporarily remove `*.exe` from `.gitignore` ([34a0d87](https://github.com/stainless-api/stainless-api-cli/commit/34a0d8706e7498bf08877eab47ccb40d89baf267))
-* **internal:** codegen related update ([44b6581](https://github.com/stainless-api/stainless-api-cli/commit/44b6581e5979daf7d1d0a66203134eec1602a9de))
-* **internal:** codegen related update ([52c6dc8](https://github.com/stainless-api/stainless-api-cli/commit/52c6dc8d08add4a1b6493790f365f96b86a4ef89))
-
-## 0.1.0-alpha.63 (2025-12-17)
-
-Full Changelog: [v0.1.0-alpha.62...v0.1.0-alpha.63](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.62...v0.1.0-alpha.63)
-
-### Features
-
-* add better suggests when commands don't match ([87295d9](https://github.com/stainless-api/stainless-api-cli/commit/87295d934bb279e38798ad1fb677f88014fd09ff))
-
-
-### Bug Fixes
-
-* fix merge conflict issues ([5f6cc75](https://github.com/stainless-api/stainless-api-cli/commit/5f6cc757e5ce1227952d2c20a5755d407a75ba35))
-* ignore .exe files ([234b806](https://github.com/stainless-api/stainless-api-cli/commit/234b806d58b3223cfd8b25c89ac08529da27a3ee))
-
-## 0.1.0-alpha.62 (2025-12-17)
-
-Full Changelog: [v0.1.0-alpha.61...v0.1.0-alpha.62](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.61...v0.1.0-alpha.62)
-
-### Features
-
-* **ai:** build APIs take SDK level commit messages & new gate for AI commit messages ([76d63c3](https://github.com/stainless-api/stainless-api-cli/commit/76d63c3df26e68aca4cbb670eb8f4b6b409b8111))
-* **cli:** automatic streaming for paginated endpoints ([119765f](https://github.com/stainless-api/stainless-api-cli/commit/119765fda59e1af4b94f7604bb34f538c03fb786))
-* **cli:** binary request bodies ([b713c9c](https://github.com/stainless-api/stainless-api-cli/commit/b713c9c704550e332fb094fa6c0ad118830a51ef))
-* new and simplified CLI flag parsing code and YAML support ([093a401](https://github.com/stainless-api/stainless-api-cli/commit/093a401b9f78950bd73563e9a50fa8fe5ae3bec2))
-* new and simplified CLI flag parsing code and YAML support ([bd6e906](https://github.com/stainless-api/stainless-api-cli/commit/bd6e906746a97a8bd0f88e09e22b466f4bdee644))
-* redact `Authorization` header when using debug option ([557a499](https://github.com/stainless-api/stainless-api-cli/commit/557a499e428cc15dcb195472fbe3f4c5940deb92))
-* redact secrets from other authentication headers when using debug option ([3f38b38](https://github.com/stainless-api/stainless-api-cli/commit/3f38b382557d0dbdcf096f15c7020daf3029a72d))
-
-
-### Bug Fixes
-
-* **api:** switch 'targets' query param to comma-delimited string in diagnostics endpoint ([8cd21bd](https://github.com/stainless-api/stainless-api-cli/commit/8cd21bd604b9a22265c4ab9853ac9dd39818e486))
-* **cli:** fix compilation on Windows ([796e618](https://github.com/stainless-api/stainless-api-cli/commit/796e61843a096fa2b9a893340621919fa789e758))
-* fix for empty request bodies ([f417be7](https://github.com/stainless-api/stainless-api-cli/commit/f417be7223cc8df2d93842b4a0f42dc6ae79ad0c))
-* fixed manpage generation ([ebf32ec](https://github.com/stainless-api/stainless-api-cli/commit/ebf32ecfc7f90529870e25833fd773e2b310130d))
-* **mcp:** correct code tool API endpoint ([227e3c4](https://github.com/stainless-api/stainless-api-cli/commit/227e3c4cd369c6cec342e92cf03c50de0c7e74d5))
-* paginated endpoints now behave better with pagers by default ([86d67d2](https://github.com/stainless-api/stainless-api-cli/commit/86d67d2a5a48872b6375a236d50f6a92ed7c6654))
-
-
-### Chores
-
-* **internal:** codegen related update ([a2daf2f](https://github.com/stainless-api/stainless-api-cli/commit/a2daf2f74f4f07c04eb7be94b12a158727bf265a))
-* **internal:** codegen related update ([dd0f6e2](https://github.com/stainless-api/stainless-api-cli/commit/dd0f6e20855e397d99053d5b8755c8589cf1c042))
-* **internal:** codegen related update ([983d24c](https://github.com/stainless-api/stainless-api-cli/commit/983d24c0fed111746bbff285bb930bd53751ed29))
-* **internal:** codegen related update ([479bceb](https://github.com/stainless-api/stainless-api-cli/commit/479bceb648d93bea9a0132a0c99b84780ef78f8b))
-* **internal:** codegen related update ([ff44c29](https://github.com/stainless-api/stainless-api-cli/commit/ff44c298f7e066820360bc2fca539957c4c66c94))
-* **internal:** version bump ([040e124](https://github.com/stainless-api/stainless-api-cli/commit/040e1243ea5ba1264ea35cb5039af40bb51c0e4f))
-* use `stretchr/testify` assertion helpers in tests ([c399dc9](https://github.com/stainless-api/stainless-api-cli/commit/c399dc9ec460998a23c6701ae4c40924d3fed08e))
-
-## 0.1.0-alpha.61 (2025-12-15)
-
-Full Changelog: [v0.1.0-alpha.60...v0.1.0-alpha.61](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.60...v0.1.0-alpha.61)
-
-## 0.1.0-alpha.60 (2025-12-08)
-
-Full Changelog: [v0.1.0-alpha.59...v0.1.0-alpha.60](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.59...v0.1.0-alpha.60)
-
-### Features
-
-* add spinner for project creation ([361bfec](https://github.com/stainless-api/stainless-api-cli/commit/361bfec53b2cdc963e7599626ffdae65f505f8fb))
-* fix edge cases for sending request data and add YAML support ([99caa6a](https://github.com/stainless-api/stainless-api-cli/commit/99caa6af3ae82d5622de085066c370cee3e73c71))
-
-
-### Bug Fixes
-
-* fix for default flag values ([114f9c1](https://github.com/stainless-api/stainless-api-cli/commit/114f9c120eac20cc5a24e2bc48a0049c268d20a9))
-
-
-### Chores
-
-* **internal:** codegen related update ([858b183](https://github.com/stainless-api/stainless-api-cli/commit/858b183ae8b9cd215876db334b4a6992d7403d47))
-
-## 0.1.0-alpha.59 (2025-12-04)
-
-Full Changelog: [v0.1.0-alpha.58...v0.1.0-alpha.59](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.58...v0.1.0-alpha.59)
-
-### Features
-
-* checkout branch if we can ([a46bd17](https://github.com/stainless-api/stainless-api-cli/commit/a46bd17a96ff604e5211f416d4dad26912b065ad))
-* fix builds:target-outputs --pull ([0b4fe3f](https://github.com/stainless-api/stainless-api-cli/commit/0b4fe3f27768af5b2ce3bdcea97e971976230e24))
-* fix builds:target-outputs --pull ([3768058](https://github.com/stainless-api/stainless-api-cli/commit/3768058960e3e097ca4db290dc25663e28e4b895))
-* handle merge conflicts better ([80c423f](https://github.com/stainless-api/stainless-api-cli/commit/80c423f9b7ffd69c877a2e21f61d5928294f693a))
-* show error if download fails ([53df302](https://github.com/stainless-api/stainless-api-cli/commit/53df302d843b5ff34e39a6702ca83faf582e18e8))
-
-
-### Bug Fixes
-
-* codegen merge conflict issues ([3c557b6](https://github.com/stainless-api/stainless-api-cli/commit/3c557b6f210a4d4474545a88ce1f90f8d8aa8307))
-* handle edge cases in build view component better ([a3bdf09](https://github.com/stainless-api/stainless-api-cli/commit/a3bdf0979aff0676616e4ec5dce8e833ad4d72d7))
-* improve file paths rendering ([8470724](https://github.com/stainless-api/stainless-api-cli/commit/847072420f6d497d8e9f25396d4bd3106a463033))
-
-
-### Chores
-
-* attempt to fix merge conflicts ([3aaa391](https://github.com/stainless-api/stainless-api-cli/commit/3aaa3910313a0c2cdb2c3cb9578cb87962e68df3))
-* format ([809894d](https://github.com/stainless-api/stainless-api-cli/commit/809894d90ecdd500f2182fd0231cabf9619f820d))
-* **internal:** codegen related update ([e61afe2](https://github.com/stainless-api/stainless-api-cli/commit/e61afe2c51d989df5c69296045a0fa883c8e29ee))
-* **internal:** codegen related update ([cf7e344](https://github.com/stainless-api/stainless-api-cli/commit/cf7e34445270b8da6608559d24f5e2431e7752a0))
-* skip spec resource ([c677113](https://github.com/stainless-api/stainless-api-cli/commit/c6771132483d0f06ea7f8f887b7c9825b9fb61af))
-* update dependencies ([e4839cf](https://github.com/stainless-api/stainless-api-cli/commit/e4839cfc6330f355906652a35f3c4047e9d94093))
-
-## 0.1.0-alpha.58 (2025-11-26)
-
-Full Changelog: [v0.1.0-alpha.57...v0.1.0-alpha.58](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.57...v0.1.0-alpha.58)
-
-### Bug Fixes
-
-* consider merge conflict done ([f9ad68b](https://github.com/stainless-api/stainless-api-cli/commit/f9ad68b2a21c9f73f03aa6260f929288e94e680c))
-* fix auth issue ([11d5375](https://github.com/stainless-api/stainless-api-cli/commit/11d5375223687be5951f2f1eb3d77035e4ca00ba))
-
-
-### Refactors
-
-* rename commit step to codegen ([58e752a](https://github.com/stainless-api/stainless-api-cli/commit/58e752a40328b2e8c1d60ee3576daa92b59cc6f2))
-
-## 0.1.0-alpha.57 (2025-11-25)
-
-Full Changelog: [v0.1.0-alpha.56...v0.1.0-alpha.57](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.56...v0.1.0-alpha.57)
-
-### Bug Fixes
-
-* fix init auth ([c840610](https://github.com/stainless-api/stainless-api-cli/commit/c84061006365d4236bab054b335ad596cf18d873))
-
-## 0.1.0-alpha.56 (2025-11-25)
-
-Full Changelog: [v0.1.0-alpha.55...v0.1.0-alpha.56](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.55...v0.1.0-alpha.56)
-
-### Features
-
-* convert paths to absolute path in the .stainless/workspace.json ([14aeb23](https://github.com/stainless-api/stainless-api-cli/commit/14aeb23dbac9e1a6a3f24d88a50e349eef281502))
-
-
-### Refactors
-
-* significantly refactor builds viewer ([0677658](https://github.com/stainless-api/stainless-api-cli/commit/067765817d047937000f634731bb8aeea6e60346))
-
-## 0.1.0-alpha.55 (2025-11-17)
-
-Full Changelog: [v0.1.0-alpha.54...v0.1.0-alpha.55](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.54...v0.1.0-alpha.55)
-
-### Features
-
-* clean up messages / formatting ([eb3b9b1](https://github.com/stainless-api/stainless-api-cli/commit/eb3b9b13d804ce10327bcd35ce03704f36d77c68))
-
-
-### Chores
-
-* move dev_view ([0512c7f](https://github.com/stainless-api/stainless-api-cli/commit/0512c7f57dc27d0461bcdce7da9bee346bf6e052))
-
-
-### Refactors
-
-* extract console ([83f3da7](https://github.com/stainless-api/stainless-api-cli/commit/83f3da7ffeed20d1b9dbb4c9bb23b771ac7f9234))
-* extract stainlessutils ([9ee2138](https://github.com/stainless-api/stainless-api-cli/commit/9ee21382a58eaa4ebee33192524c909bf341e237))
-* extract stainlessviews ([d075dea](https://github.com/stainless-api/stainless-api-cli/commit/d075dea1085b36d5761eea19253cb253c5273eca))
-
-## 0.1.0-alpha.54 (2025-11-14)
-
-Full Changelog: [v0.1.0-alpha.53...v0.1.0-alpha.54](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.53...v0.1.0-alpha.54)
-
-## 0.1.0-alpha.53 (2025-11-13)
-
-Full Changelog: [v0.1.0-alpha.51...v0.1.0-alpha.53](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.51...v0.1.0-alpha.53)
-
-### Features
-
-* **api:** add branch reset functionality ([b0df2a1](https://github.com/stainless-api/stainless-api-cli/commit/b0df2a1520a8c57fb854e8dc3b133ce195c122d5))
-
-
-### Chores
-
-* bump go sdk version ([d34a873](https://github.com/stainless-api/stainless-api-cli/commit/d34a87386da62d51ef9fd33fd5637de54d11ee67))
-* **internal:** codegen related update ([4e786ec](https://github.com/stainless-api/stainless-api-cli/commit/4e786ece778e52ced853f83374e2fefd3c8460d1))
-
-## 0.1.0-alpha.51 (2025-10-25)
-
-Full Changelog: [v0.1.0-alpha.50...v0.1.0-alpha.51](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.50...v0.1.0-alpha.51)
-
-### Features
-
-* use scope:"*" ([6b45c41](https://github.com/stainless-api/stainless-api-cli/commit/6b45c41e78d6992355533234986ee07f212d92c0))
-
-
-### Bug Fixes
-
-* fix builds for non-public Go repos ([725ff05](https://github.com/stainless-api/stainless-api-cli/commit/725ff05a2078bef1e4081e8a19bc3be12ce20a0f))
-* remove some bootstrapping logic ([a3f713d](https://github.com/stainless-api/stainless-api-cli/commit/a3f713d5551ca6c0b6d1bdf4d83999652c15d9cf))
-
-## 0.1.0-alpha.50 (2025-10-23)
-
-Full Changelog: [v0.1.0-alpha.49...v0.1.0-alpha.50](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.49...v0.1.0-alpha.50)
-
-### Features
-
-* arguments now have defaults and descriptions ([9b8d534](https://github.com/stainless-api/stainless-api-cli/commit/9b8d534c8b92ae4f03dda9ac12e80c0574a0642d))
-* Expose connection-specific decorated OAS ([abf1d87](https://github.com/stainless-api/stainless-api-cli/commit/abf1d87e0af1e8f77405873c1ddf36f5070f897c))
-
-
-### Bug Fixes
-
-* pass through context parameter correctly ([29182fd](https://github.com/stainless-api/stainless-api-cli/commit/29182fdae10f5f91e3b8d0f90234f4e330572c9d))
-
-
-### Chores
-
-* bump go sdk version ([358eed4](https://github.com/stainless-api/stainless-api-cli/commit/358eed41b58f7bacf6d5ce340795d251fa1803c3))
-* bump Go version ([84c6127](https://github.com/stainless-api/stainless-api-cli/commit/84c612747d1a22ee69d3ffca48f7c538b9b44896))
-* **internal:** codegen related update ([375ca6b](https://github.com/stainless-api/stainless-api-cli/commit/375ca6ba3c64a74577430abec867b1b9b7c2fe43))
-
-## 0.1.0-alpha.49 (2025-10-06)
-
-Full Changelog: [v0.1.0-alpha.48...v0.1.0-alpha.49](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.48...v0.1.0-alpha.49)
-
-### Bug Fixes
-
-* downgrade urfave/cli-docs dependency ([6b4c1ac](https://github.com/stainless-api/stainless-api-cli/commit/6b4c1accf900e7b7e6266873fa46e7153b15e7ec))
-
-## 0.1.0-alpha.48 (2025-10-03)
-
-Full Changelog: [v0.1.0-alpha.47...v0.1.0-alpha.48](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.47...v0.1.0-alpha.48)
-
-## 0.1.0-alpha.47 (2025-10-03)
-
-Full Changelog: [v0.1.0-alpha.46...v0.1.0-alpha.47](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.46...v0.1.0-alpha.47)
-
-## 0.1.0-alpha.46 (2025-10-03)
-
-Full Changelog: [v0.1.0-alpha.45...v0.1.0-alpha.46](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.45...v0.1.0-alpha.46)
-
-## 0.1.0-alpha.45 (2025-10-02)
-
-Full Changelog: [v0.1.0-alpha.44...v0.1.0-alpha.45](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.44...v0.1.0-alpha.45)
-
-### Features
-
-* added `--output-filter` flag and `--error-format` flag to support better visualization options ([2768e5b](https://github.com/stainless-api/stainless-api-cli/commit/2768e5b0255ae79e44ed54f583c4809f19801afe))
-* better support for positional arguments ([799d88f](https://github.com/stainless-api/stainless-api-cli/commit/799d88f441c5d1d5dca82a5590fceefdc1823f42))
-
-
-### Chores
-
-* **internal:** codegen related update ([2f9d764](https://github.com/stainless-api/stainless-api-cli/commit/2f9d764f660458d0e84e11adea9f1d418e8f1013))
-* **internal:** codegen related update ([c7df1a7](https://github.com/stainless-api/stainless-api-cli/commit/c7df1a7401a51fe9657ca9fa7f1aff2d37f60851))
-
-## 0.1.0-alpha.44 (2025-09-22)
-
-Full Changelog: [v0.1.0-alpha.43...v0.1.0-alpha.44](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.43...v0.1.0-alpha.44)
-
-### Features
-
-* **api:** docs ([f0762b0](https://github.com/stainless-api/stainless-api-cli/commit/f0762b08842d63a55f28afc18a77907c24f2513b))
-* improved formatting options for command outputs ([f5e6481](https://github.com/stainless-api/stainless-api-cli/commit/f5e6481706b882eaa0c84a3bf8aea2a088087402))
-* show full error message on fatal error ([00621a1](https://github.com/stainless-api/stainless-api-cli/commit/00621a1ba20a392670dc8a7bf991c1d0507efc12))
-
-
-### Bug Fixes
-
-* fix for issue with nil responses ([14f22bf](https://github.com/stainless-api/stainless-api-cli/commit/14f22bfbe6318e849a57b2243c958e3af869b18c))
-* fix go client version bump issues ([d59e6ea](https://github.com/stainless-api/stainless-api-cli/commit/d59e6ea0f8363c1ad7ace9c97e243ec972f75c24))
-
-
-### Chores
-
-* code cleanup for `interface{}` ([30cd6f1](https://github.com/stainless-api/stainless-api-cli/commit/30cd6f10ce33163f4f6b7f13085a259cf738ca49))
-* do not install brew dependencies in ./scripts/bootstrap by default ([ff84f98](https://github.com/stainless-api/stainless-api-cli/commit/ff84f986702f63a60e1f5343e180c305877f6171))
-* update go dependency ([22a15b8](https://github.com/stainless-api/stainless-api-cli/commit/22a15b85720596afe3dd95d3be4f2ce4ddf1341a))
-
-## 0.1.0-alpha.43 (2025-09-16)
-
-Full Changelog: [v0.1.0-alpha.42...v0.1.0-alpha.43](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.42...v0.1.0-alpha.43)
-
-### Bug Fixes
-
-* fix diagnostic iteration ([bd8ce45](https://github.com/stainless-api/stainless-api-cli/commit/bd8ce45278e05dcc90ee88bdb9dfb9225345c0f9))
-
-## 0.1.0-alpha.42 (2025-09-15)
-
-Full Changelog: [v0.1.0-alpha.41...v0.1.0-alpha.42](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.41...v0.1.0-alpha.42)
-
-### Features
-
-* improved formatting options for command outputs ([0fef47d](https://github.com/stainless-api/stainless-api-cli/commit/0fef47d958d79dea5d71674bf6eee5109a14743d))
-* skip ignored diagnostics ([1edf832](https://github.com/stainless-api/stainless-api-cli/commit/1edf8322fe459c6c2fdf524e3501e5efd03bc97e))
-
-
-### Bug Fixes
-
-* dont crash when git user is not available ([7012171](https://github.com/stainless-api/stainless-api-cli/commit/701217124580a992cc47fdd8c4762f70c1130105))
-* lint error ([7eda049](https://github.com/stainless-api/stainless-api-cli/commit/7eda0495e88be8348edf9c789ce60f0cac6eab3f))
-* more merge conflict issues ([2416212](https://github.com/stainless-api/stainless-api-cli/commit/2416212db96b9f3fb15edc5c08ff7a9af8bb1d0f))
-
-## 0.1.0-alpha.41 (2025-09-09)
-
-Full Changelog: [v0.1.0-alpha.40...v0.1.0-alpha.41](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.40...v0.1.0-alpha.41)
-
-### Bug Fixes
-
-* **homebrew:** homebrew distribution should work now ([db54fbd](https://github.com/stainless-api/stainless-api-cli/commit/db54fbd09b4b259e054300a5d711f5798e425cde))
-
-## 0.1.0-alpha.40 (2025-09-09)
-
-Full Changelog: [v0.1.0-alpha.39...v0.1.0-alpha.40](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.39...v0.1.0-alpha.40)
-
-### Features
-
-* **api:** resources and methods now use kebab-case instead of snake_case ([30eb64b](https://github.com/stainless-api/stainless-api-cli/commit/30eb64bd5450582b8a15d12720550574f9f6567e))
-* **auth:** add descriptive device names with hostname and OS info ([b36e2d0](https://github.com/stainless-api/stainless-api-cli/commit/b36e2d02d7f34b97aa44cea21993e74791d4d43e))
-* now ships with manpages ([1f312b4](https://github.com/stainless-api/stainless-api-cli/commit/1f312b4930b5245866fd8fce1f5266962f7ee65d))
-
-
-### Bug Fixes
-
-* some methods no longer require a prefix ([4251212](https://github.com/stainless-api/stainless-api-cli/commit/425121255ec5f7abcb909a919fa0b20bc1ab18f9))
-
-
-### Chores
-
-* bump go sdk version ([9669c15](https://github.com/stainless-api/stainless-api-cli/commit/9669c158faf4f88861b2c4016c54d453d42c698f))
-* **internal:** codegen related update ([291d111](https://github.com/stainless-api/stainless-api-cli/commit/291d111fa1512ddb47cab59d94a0524b440f4ed2))
-
-## 0.1.0-alpha.39 (2025-08-25)
-
-Full Changelog: [v0.1.0-alpha.38...v0.1.0-alpha.39](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.38...v0.1.0-alpha.39)
-
-### Features
-
-* **api:** manual updates ([351b067](https://github.com/stainless-api/stainless-api-cli/commit/351b067c40ae8dde9369a6557b1a98b42dde835e))
+* add unstable call out ([c846141](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c846141b026ce58d394d0be205b9d948f38476f1))
+* add usage examples ([2e7c4c3](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/2e7c4c39980dcc88408ff3576cf7a45b3619e034))
+* attempt to fix merge conflicts ([312bac1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/312bac1e3b794fa81fa541b9bf7711912efab69b))
+* bump go sdk ([b3c3585](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b3c3585eab3d5a54a61bf31075204b1e97119b7f))
+* bump go sdk version ([d34a873](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d34a87386da62d51ef9fd33fd5637de54d11ee67))
+* bump go sdk version ([3ed8463](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3ed8463bee249ba450896e8dfe3ff22fe8052633))
+* bump go sdk version ([30949b8](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/30949b8ed6568d005feb79ff57e7a6bb54178ef4))
+* bump go sdk version ([ba331e5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/ba331e5804e8baca531ef1670a68cfcd91633d4f))
+* bump go version ([985f849](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/985f849916284ffdf72acd290cd666dc1dcb3a78))
+* bump Go version ([d24278d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d24278d2faf4eaceb20ad3aa308d64a77248df46))
+* **cli:** add `*.exe` files back to `.gitignore` ([a3543fa](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/a3543fa15f9c6433c91eeb7fe96bedb8eaaee26c))
+* **cli:** move `jsonview` subpackage to `internal` ([22bde59](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/22bde59b20082e9b3dc7fb07a7973a8cae2a8c0d))
+* **cli:** run pre-codegen tests on Windows ([3bd1b3e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3bd1b3edb4e56710f08d79602655512e2a7ef14c))
+* **cli:** temporarily remove `*.exe` from `.gitignore` ([f4b1587](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f4b1587af17447f7f7fd6ff9ca6fef18fdc72945))
+* code cleanup for `interface{}` ([7ac4c43](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/7ac4c4382d4484aa2726d47f92b388df44ffcc00))
+* consistently capitalize Stainless ([70d4401](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/70d4401e3666ec64fed1e8bec72231b5fb496fee))
+* do not install brew dependencies in ./scripts/bootstrap by default ([3ada6b4](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3ada6b4c1894398e5fe487372755afef9fb11d72))
+* format ([1ab24fe](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1ab24fe6b8035399985e7758211fa4bf214cddf9))
+* improve messaging when stainless config isn't configured ([6755d8f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6755d8fa105a581f28d7f95a3e684f723707d37f))
+* internal change ([5673ad8](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5673ad8742500553de45637167b29883c0f5c997))
+* **internal:** codegen related update ([9cf00ad](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/9cf00adbf8cf05f8321cb0617180bc25b8aeaa8b))
+* **internal:** codegen related update ([da770e1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/da770e1f0dc6d2413afea90e5b9d46dfd6631870))
+* **internal:** codegen related update ([5a6de48](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/5a6de48f319a81fa93ce26fbf3261757a98537d7))
+* **internal:** codegen related update ([58a1d4b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/58a1d4b0b0a1109288070961a0e43336c0bc2188))
+* **internal:** codegen related update ([e504dd8](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e504dd8e46f01b36353ea0e696b8d2955f3e839b))
+* **internal:** codegen related update ([ae2c6b9](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/ae2c6b9180891d4a2badb36fb417be7bd949b265))
+* **internal:** codegen related update ([76cd239](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/76cd2392c6a3357ab0516906ef5af53da51e7a57))
+* **internal:** codegen related update ([332a7a5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/332a7a5dba5600671da1fd673d74c2209d0de644))
+* **internal:** codegen related update ([c1e68dd](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c1e68dd9a6607f86e50126cb59d0de916e48cdb8))
+* **internal:** codegen related update ([4689b53](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/4689b534beb03a2b37c49f06c2ba27b9cbb65540))
+* **internal:** codegen related update ([4e786ec](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/4e786ece778e52ced853f83374e2fefd3c8460d1))
+* **internal:** codegen related update ([0d046de](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0d046de1390daa845707deb260a3e6e028b364dd))
+* **internal:** codegen related update ([2f9d764](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/2f9d764f660458d0e84e11adea9f1d418e8f1013))
+* **internal:** codegen related update ([c7df1a7](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/c7df1a7401a51fe9657ca9fa7f1aff2d37f60851))
+* **internal:** codegen related update ([4979896](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/49798962ba8acdde6c69b5a96408a8c06b3bddeb))
+* **internal:** codegen related update ([f7e17f5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/f7e17f5674d9560dcf000d9f011235ba784c7d32))
+* **internal:** codegen related update ([e115e2d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/e115e2db3aae4a5169e933c6857d750ba65749ec))
+* **internal:** codegen related update ([781edf5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/781edf5b8d79bd7560f63a9f9f47734bc1712444))
+* **internal:** codegen related update ([d5256b4](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d5256b4a000459c77440df18a1dd33a9916e16f9))
+* **internal:** codegen related update ([01a2252](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/01a225255dc5845aac08c85715cdca041bda14a7))
+* **internal:** version bump ([cc981f3](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/cc981f3bd66d324866d92a102753bda8a70b0f90))
+* move dev_view ([b1b82f6](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b1b82f61b87d0ca3de1fcf0d928fddd24d0a4b8e))
+* run format ([8a9c2da](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/8a9c2dacacf33aa4c4411b362e02db97558ea99c))
+* skip spec resource ([fcb7ff0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fcb7ff0861d54ec2bf38c1a5095ff7ba476c3367))
+* sync repo ([7c0582c](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/7c0582c9e12bde6046336d3d828c903a243cae92))
+* update @stainless-api/prism-cli to v5.15.0 ([fb60d3a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fb60d3a77d6956c47e26481cd802a5eb59e5e420))
+* update dependencies ([fc0fc11](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fc0fc11211faa327e94f653de4b240b53ed929ee))
+* update go dependency ([006ada1](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/006ada14b833880bebdd6093759f2faf77377d70))
+* update SDK settings ([3401408](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/3401408107fc4f56cd1ca6d98c86fbd0d79c1d22))
+* update tap repository ([abb5df6](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/abb5df6645dbc2197c9756c6cc4db088fff63cf9))
+* use `stretchr/testify` assertion helpers in tests ([4d7647b](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/4d7647be43898ff0254576a92733722bc65f5180))
 
 
 ### Documentation
 
-* add contact email and link to docs ([f382570](https://github.com/stainless-api/stainless-api-cli/commit/f382570eb1016f346ada5fa64a0c668a2b01b52d))
-
-## 0.1.0-alpha.38 (2025-08-20)
-
-Full Changelog: [v0.1.0-alpha.37...v0.1.0-alpha.38](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.37...v0.1.0-alpha.38)
-
-### Features
-
-* [WIP] add branch rebasing to the API ([0ffdf30](https://github.com/stainless-api/stainless-api-cli/commit/0ffdf303808ea76b14c80280ab36d94a9f6d739d))
-* **api:** update go_sdk_version ([dcb1497](https://github.com/stainless-api/stainless-api-cli/commit/dcb14971ba57548535646186d3ccd1a0ec8830d1))
-* make --branch no longer required ([ecea04a](https://github.com/stainless-api/stainless-api-cli/commit/ecea04aae24b722fd046fa80a39f380157e7e3e0))
-
-## 0.1.0-alpha.37 (2025-08-13)
-
-Full Changelog: [v0.1.0-alpha.36...v0.1.0-alpha.37](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.36...v0.1.0-alpha.37)
-
-### Features
-
-* add User-Agent ([5e14044](https://github.com/stainless-api/stainless-api-cli/commit/5e140445516ab732da0290c46f6d185df933d258))
-* infer branch better ([06eb8ab](https://github.com/stainless-api/stainless-api-cli/commit/06eb8ab1098dc2fc6d66bf44021a5e5ed4f5217f))
-
-
-### Chores
-
-* internal change ([7acb27b](https://github.com/stainless-api/stainless-api-cli/commit/7acb27b713b5530d017ef8fa1f04c1edaf8bb636))
-* **internal:** codegen related update ([31f37f8](https://github.com/stainless-api/stainless-api-cli/commit/31f37f88464ef707f93d32b1dbfa10584b4c12b9))
-* **internal:** codegen related update ([9f7e69f](https://github.com/stainless-api/stainless-api-cli/commit/9f7e69fcd733ccfa9e37bd09b599edaf4573f7d9))
-* update @stainless-api/prism-cli to v5.15.0 ([555a3e3](https://github.com/stainless-api/stainless-api-cli/commit/555a3e346fb4d5eee9d8b16d6769bdbc49b0be9a))
+* add contact email and link to docs ([0f6aaa5](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/0f6aaa5fd6115f2f1729b20d6b89dbfc40fab78b))
 
 
 ### Refactors
 
-* extract logic out to stainlessutils.go ([a23a33a](https://github.com/stainless-api/stainless-api-cli/commit/a23a33aaa08129f6a00d0423d2660d91aaaf6d3a))
-* extract logic to authconfig.go ([c140592](https://github.com/stainless-api/stainless-api-cli/commit/c14059238b6e9c43fbc55f98271d7ae608a8e6d0))
-* extract logic to workspaceconfig.go ([8735957](https://github.com/stainless-api/stainless-api-cli/commit/87359570d62e6567d2d9c9288e82af22fecd6142))
-* simplify AuthConfig interface ([27572ad](https://github.com/stainless-api/stainless-api-cli/commit/27572ad0621b45d610978083880f2a46a9388378))
-
-## 0.1.0-alpha.36 (2025-08-06)
-
-Full Changelog: [v0.1.0-alpha.35...v0.1.0-alpha.36](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.35...v0.1.0-alpha.36)
-
-### Features
-
-* make build resolve much faster ([922d86c](https://github.com/stainless-api/stainless-api-cli/commit/922d86c67c6c28a98859f5cf4b70eca9eddf9f39))
-* skip downloads for builds with fatal commit conclusions ([6cb7a29](https://github.com/stainless-api/stainless-api-cli/commit/6cb7a299fc24ca809b540489bda0d9d2e0ceb3ac))
-* skip downloads in dev mode for fatal commit conclusions ([228bd08](https://github.com/stainless-api/stainless-api-cli/commit/228bd082f08848fa40e547677f31d70ba469e812))
-
-
-### Bug Fixes
-
-* don't set openapi-spec if revision is set ([ddc3715](https://github.com/stainless-api/stainless-api-cli/commit/ddc37155f67018d8a3839acfe08aa4772b3040a4))
-
-
-### Chores
-
-* improve messaging when stainless config isn't configured ([50b5348](https://github.com/stainless-api/stainless-api-cli/commit/50b5348ccc13415e07293e07ab5c73168a2c03b3))
-
-
-### Refactors
-
-* remove retrying from config download ([af51b3c](https://github.com/stainless-api/stainless-api-cli/commit/af51b3c21e07419b3d3044a3a7d590a31c131815))
-
-## 0.1.0-alpha.35 (2025-08-05)
-
-Full Changelog: [v0.1.0-alpha.34...v0.1.0-alpha.35](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.34...v0.1.0-alpha.35)
-
-### Features
-
-* add path to config output ([7a6fd0b](https://github.com/stainless-api/stainless-api-cli/commit/7a6fd0bf6f227b4c9c79b92294882130d9539e03))
-* add remote if it doesn't exist ([8455a8d](https://github.com/stainless-api/stainless-api-cli/commit/8455a8d2c715da64c2041c37854200fe202ac075))
-* change next steps padding ([e2e3be2](https://github.com/stainless-api/stainless-api-cli/commit/e2e3be2e211fc0cf7503529041f2220566ea0de0))
-* fix workspace init command ([f7873f3](https://github.com/stainless-api/stainless-api-cli/commit/f7873f3c3c43508558a58b8d4e987aaa634316d4))
-* improve form styling ([290d3a6](https://github.com/stainless-api/stainless-api-cli/commit/290d3a62b810be711b28f8b43e94a6dd52cd4191))
-* remove too much choice from init flow ([056aeec](https://github.com/stainless-api/stainless-api-cli/commit/056aeec148d3ba28748682b86d47669967a4ba7f))
-* strip http login url ([6576c07](https://github.com/stainless-api/stainless-api-cli/commit/6576c07f9b85dc2b1c35eca392ac09540a97b2b9))
-* use checkmark for multiselect ([3edf4be](https://github.com/stainless-api/stainless-api-cli/commit/3edf4bea0a14607b22768f821aa558941ec47353))
-
-
-### Chores
-
-* add usage examples ([2f51c69](https://github.com/stainless-api/stainless-api-cli/commit/2f51c699a2ed4ad8ebff9137e8687f6f19648d2e))
-* consistently capitalize Stainless ([9f3d5e8](https://github.com/stainless-api/stainless-api-cli/commit/9f3d5e829ef18b9977dfd8bbf88ee710ec19ec82))
-
-## 0.1.0-alpha.34 (2025-07-31)
-
-Full Changelog: [v0.1.0-alpha.33...v0.1.0-alpha.34](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.33...v0.1.0-alpha.34)
-
-### Features
-
-* **api:** manual updates ([ca8a538](https://github.com/stainless-api/stainless-api-cli/commit/ca8a538790ae9599f9eb0ec07b8c04c377405751))
-* simplify getAPICommandContext ([23ccc6d](https://github.com/stainless-api/stainless-api-cli/commit/23ccc6db032a8b7bba5b86bf1ecb369c15fba7f7))
-* wait for organization creation in CLI ([2295a90](https://github.com/stainless-api/stainless-api-cli/commit/2295a90f35b25e7e30dccb457024ba5fdfa0f271))
-
-
-### Chores
-
-* update tap repository ([7a8cb8d](https://github.com/stainless-api/stainless-api-cli/commit/7a8cb8d175b94c7fd8e017665769a359d3f52f8f))
-
-## 0.1.0-alpha.33 (2025-07-30)
-
-Full Changelog: [v0.1.0-alpha.32...v0.1.0-alpha.33](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.32...v0.1.0-alpha.33)
-
-### Bug Fixes
-
-* fix git fetch when building branch ([7cb800e](https://github.com/stainless-api/stainless-api-cli/commit/7cb800ef4717ddbf39296f239a31678ab3251540))
-
-## 0.1.0-alpha.32 (2025-07-30)
-
-Full Changelog: [v0.1.0-alpha.31...v0.1.0-alpha.32](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.31...v0.1.0-alpha.32)
-
-### Features
-
-* add download to dev mode ([6532712](https://github.com/stainless-api/stainless-api-cli/commit/65327127654bf67a804aeb141cfec4a4017c183c))
-
-
-### Bug Fixes
-
-* remove debug logging ([87d0f51](https://github.com/stainless-api/stainless-api-cli/commit/87d0f51c63f89ca42dcd4731ca872faeecf30e01))
-
-## 0.1.0-alpha.31 (2025-07-30)
-
-Full Changelog: [v0.1.0-alpha.30...v0.1.0-alpha.31](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.30...v0.1.0-alpha.31)
-
-### Features
-
-* improve autofill project name logic ([6adcbcd](https://github.com/stainless-api/stainless-api-cli/commit/6adcbcddc9679f89c3da93d23e8315a8fb6437be))
-
-
-### Bug Fixes
-
-* remove unused os import ([a8d8227](https://github.com/stainless-api/stainless-api-cli/commit/a8d8227e64f46c5237da2a4dedcebab389d8ad02))
-
-
-### Refactors
-
-* clean up file flags ([7248111](https://github.com/stainless-api/stainless-api-cli/commit/72481118d3fc5620bd91dfea8e57849c97caffde))
-
-## 0.1.0-alpha.30 (2025-07-29)
-
-Full Changelog: [v0.1.0-alpha.29...v0.1.0-alpha.30](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.29...v0.1.0-alpha.30)
-
-### Features
-
-* add links to dev mode ([579819a](https://github.com/stainless-api/stainless-api-cli/commit/579819a364d8527000472c47923f64efc0dff8d9))
-* don't print project json on init ([f5479c4](https://github.com/stainless-api/stainless-api-cli/commit/f5479c4949ce837ac1cc1b92d4089a5bb15af363))
-* fix spacing between waiting for build and pulling outputs ([472cb40](https://github.com/stainless-api/stainless-api-cli/commit/472cb40d9ffe818d964e3b82ec44e8ec56c7379a))
-* support reading from config.Targets in builds create ([a451f8f](https://github.com/stainless-api/stainless-api-cli/commit/a451f8f1f59588bca5c0b00b4081976b2aa65a59))
-* update target download logic ([3d4a32e](https://github.com/stainless-api/stainless-api-cli/commit/3d4a32e17fee21a647845db2edf52892ecf80d26))
-
-
-### Refactors
-
-* change semantics of downloadStainlessConfig ([2748f4b](https://github.com/stainless-api/stainless-api-cli/commit/2748f4bfd4e7c09075046abb11e7c8ec4021622b))
-* simplify config threading ([3e3874a](https://github.com/stainless-api/stainless-api-cli/commit/3e3874aa6536e5243dc6409b27ac487dd38a4957))
-
-## 0.1.0-alpha.29 (2025-07-29)
-
-Full Changelog: [v0.1.0-alpha.28...v0.1.0-alpha.29](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.28...v0.1.0-alpha.29)
-
-### Features
-
-* add diagnositcs count ([fa36fb2](https://github.com/stainless-api/stainless-api-cli/commit/fa36fb23190f91a79c2547bcad1def4f66497c69))
-* add init command ([af9d04b](https://github.com/stainless-api/stainless-api-cli/commit/af9d04b6aae5d4b97df29c8f48257fd26377d82e))
-* add targets to workspace config ([49e41a2](https://github.com/stainless-api/stainless-api-cli/commit/49e41a24b8f574df8f1e7641329192e1af43a20d))
-* port some init logic to workspace init ([c509357](https://github.com/stainless-api/stainless-api-cli/commit/c509357a229e08a2d470db7e664cfa1248903191))
-* pull targets from init ([98d427b](https://github.com/stainless-api/stainless-api-cli/commit/98d427b06f1b0509e2ea5745184d27863119c5a2))
-* use getAvailableTargetInfo for preselected builds ([63b7b1d](https://github.com/stainless-api/stainless-api-cli/commit/63b7b1d7d5090deeba60efbef461fb6f87dd2416))
-
-
-### Chores
-
-* run format ([f2703f4](https://github.com/stainless-api/stainless-api-cli/commit/f2703f41c1a8a662fbfa615ee582e9040c0b4e8c))
-
-
-### Refactors
-
-* rename getCompletedTargets to getTargetInfo ([a44754a](https://github.com/stainless-api/stainless-api-cli/commit/a44754a8b14e03b51716ec0e9d8f6baa948da43f))
-
-## 0.1.0-alpha.28 (2025-07-28)
-
-Full Changelog: [v0.1.0-alpha.27...v0.1.0-alpha.28](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.27...v0.1.0-alpha.28)
-
-### Features
-
-* add callout at project creation ([003796e](https://github.com/stainless-api/stainless-api-cli/commit/003796e6004bc9c9986861a72a4288ab393aa953))
-* add some polish around confirm dialogs ([40d3419](https://github.com/stainless-api/stainless-api-cli/commit/40d34192c6cfc937d9da9ddb4f9b393bf808417c))
-* **api:** manual updates ([27041d4](https://github.com/stainless-api/stainless-api-cli/commit/27041d4a81fe0cee98907a872bd73b0c60f92b31))
-* **api:** manual updates ([b97d699](https://github.com/stainless-api/stainless-api-cli/commit/b97d699c3e1d17dc7199ffdf8768c4942d875936))
-* flesh out project branches endpoints ([897282f](https://github.com/stainless-api/stainless-api-cli/commit/897282f565bc519c4256aef101aadb36c16e6c96))
-* improve output grouping ([012926f](https://github.com/stainless-api/stainless-api-cli/commit/012926fc3c5b0e44243a689e4fd911baebe46395))
-* improve project create form ([e3ec063](https://github.com/stainless-api/stainless-api-cli/commit/e3ec0632a86ae39d58f056a187636d3fc06c6c24))
-* remove stainless config uploading to the project create endpoint ([3bba950](https://github.com/stainless-api/stainless-api-cli/commit/3bba950d20c4117103f0ff1cb936f80543f80c0e))
-* rename init-workspace flag to workspace-init ([c3c7887](https://github.com/stainless-api/stainless-api-cli/commit/c3c7887e2bc39a3c7b20f58989f5cb7eab4ebcc4))
-
-
-### Bug Fixes
-
-* add retries to project config retrieve ([630b8e8](https://github.com/stainless-api/stainless-api-cli/commit/630b8e82c970478cc481093c9de774f08d55ff9b))
-* don't unconditionally indent forms ([249b151](https://github.com/stainless-api/stainless-api-cli/commit/249b15100bb714886efcfa8093b2108cda3fa5e4))
-* fix middleware with empty body ([b734f2e](https://github.com/stainless-api/stainless-api-cli/commit/b734f2ee032645f064f4c033131c164c75be6e97))
-* improve diagnostics printing ([9d42891](https://github.com/stainless-api/stainless-api-cli/commit/9d42891284b59e3c976f9eae879e114539c2ff9e))
-* improve printing of diagnostics when no diagnostics are there ([65e18d5](https://github.com/stainless-api/stainless-api-cli/commit/65e18d5c1d4167a4ae5911df3ed980f064c5c57e))
-* unwrap content for stainless config ([919d1b7](https://github.com/stainless-api/stainless-api-cli/commit/919d1b72fd7b8c9482039466ae56ef66efbf61f1))
-
-## 0.1.0-alpha.27 (2025-07-28)
-
-Full Changelog: [v0.1.0-alpha.26...v0.1.0-alpha.27](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.26...v0.1.0-alpha.27)
-
-### Features
-
-* flesh out project branches endpoints ([3f50b90](https://github.com/stainless-api/stainless-api-cli/commit/3f50b90035c92641cebc44cf439fe70695c61098))
-
-
-### Chores
-
-* bump go version ([6179d9d](https://github.com/stainless-api/stainless-api-cli/commit/6179d9d015abe133f094fb6deca33c70f537f2dd))
-* **internal:** codegen related update ([71190a6](https://github.com/stainless-api/stainless-api-cli/commit/71190a66478187d4fdcb129cae63c408f1776631))
-* **internal:** codegen related update ([eacc95e](https://github.com/stainless-api/stainless-api-cli/commit/eacc95e59b1cd5cee96ca0567a3e0bb10e1d16cc))
-* **internal:** codegen related update ([66c2750](https://github.com/stainless-api/stainless-api-cli/commit/66c275001290e765feea3a636625486f67705380))
-
-## 0.1.0-alpha.26 (2025-07-22)
-
-Full Changelog: [v0.1.0-alpha.25...v0.1.0-alpha.26](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.25...v0.1.0-alpha.26)
-
-### Features
-
-* add dev mode ([5c7d002](https://github.com/stainless-api/stainless-api-cli/commit/5c7d002d71cc1f1955bbd23302e7179e7bfd8658))
-* **api:** manual updates ([851173a](https://github.com/stainless-api/stainless-api-cli/commit/851173a3796f1c925b0fcc02e8973b50cacd7dba))
-* **api:** manual updates ([f5f13f9](https://github.com/stainless-api/stainless-api-cli/commit/f5f13f97699ec60e69dc8e4f8104f9a154661a0b))
-* Codegen(go): encode path params ([3ff985f](https://github.com/stainless-api/stainless-api-cli/commit/3ff985f2f214b5c2a34482dcacbaf796a768ca77))
-* Codegen(php): unset optional parameters in constructor ([dcd415a](https://github.com/stainless-api/stainless-api-cli/commit/dcd415a35e1223572e32aae9af7de1b6564046bd))
-* php: generate stub union classes with discrimminator info ([dbc8aa0](https://github.com/stainless-api/stainless-api-cli/commit/dbc8aa04f616b9135ac720bc22983271f5db3d2e))
-
-
-### Chores
-
-* add unstable call out ([a0157be](https://github.com/stainless-api/stainless-api-cli/commit/a0157bef8ca29fc418bc43dd38c453d7ad21bdb8))
-* bump go sdk ([c671b1d](https://github.com/stainless-api/stainless-api-cli/commit/c671b1d3ebd95127cccdf97f6b6d5de570c54849))
-* bump go sdk version ([6b1aa80](https://github.com/stainless-api/stainless-api-cli/commit/6b1aa80ce7f247841a924adef77207514ebaf18a))
-* bump go version ([ad830cf](https://github.com/stainless-api/stainless-api-cli/commit/ad830cf2b99969d0638d1d319f8bac1586dfa8dd))
-* update homebrew repository ([e49e98c](https://github.com/stainless-api/stainless-api-cli/commit/e49e98c10098c08f46537cf3c2650d33580d6844))
-
-
-### Refactors
-
-* improve scrollback content viewer ([140f41b](https://github.com/stainless-api/stainless-api-cli/commit/140f41bd0ed944fe25759ad7bc39643ebfc0e245))
-* optimize pipeline rendering ([2ddf648](https://github.com/stainless-api/stainless-api-cli/commit/2ddf64830a410a66b686a082330288fc3683f51e))
-* simplify getStepSymbol ([a3f7d60](https://github.com/stainless-api/stainless-api-cli/commit/a3f7d60ea9d32bb73032dcd67673cd00c0d36c8f))
-
-## 0.1.0-alpha.25 (2025-07-15)
-
-Full Changelog: [v0.1.0-alpha.24...v0.1.0-alpha.25](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.24...v0.1.0-alpha.25)
-
-### Features
-
-* add multipart form support to HAR snippets ([24979f2](https://github.com/stainless-api/stainless-api-cli/commit/24979f22f37f1f4e2f6cf473746ce523914f704a))
-* add timestamp to builds api ([1144d20](https://github.com/stainless-api/stainless-api-cli/commit/1144d20daa405a332c695fa08087fb43c37c8067))
-* **api:** add staging environment ([be9cb34](https://github.com/stainless-api/stainless-api-cli/commit/be9cb344a2ac600947dc4c523a51b5655203cf57))
-* **api:** manual updates ([13e06db](https://github.com/stainless-api/stainless-api-cli/commit/13e06db339629317a88a9ae994f0adbfbad49d05))
-* **api:** manual updates ([57ee9a1](https://github.com/stainless-api/stainless-api-cli/commit/57ee9a1481625046ca7a9d37bd3ba7f553ac3ca8))
-* **api:** manual updates ([5753cc0](https://github.com/stainless-api/stainless-api-cli/commit/5753cc08e608479ba81fbecee3ec07eba252274a))
-* improve output coloring ([b653f1c](https://github.com/stainless-api/stainless-api-cli/commit/b653f1c2609edd3f2de16988b995a434ce3fd89b))
-* improve output coloring ([617c876](https://github.com/stainless-api/stainless-api-cli/commit/617c876068015ad54412f19e6dd593d126ce5283))
-* make build api return documented specs as urls ([1127d78](https://github.com/stainless-api/stainless-api-cli/commit/1127d78574ed81939c6d003372715a5f9a06da47))
-* support target:path syntax for custom output directories ([d8c7e4c](https://github.com/stainless-api/stainless-api-cli/commit/d8c7e4ce9e3d7817d8bda3fab1823835122b7f68))
-* support target:path syntax for custom output directories ([97e7fae](https://github.com/stainless-api/stainless-api-cli/commit/97e7fae3a5c363c54d5add25c6e72d93a867e2af))
-* support target:path syntax for custom output directories ([d5447aa](https://github.com/stainless-api/stainless-api-cli/commit/d5447aaf314ce7b3bb009fe2551d74cc251c3b21))
-
-
-### Chores
-
-* bump ([e6ba380](https://github.com/stainless-api/stainless-api-cli/commit/e6ba38062edf853d06f9ae47842ebb0137b83240))
-* bump go sdk version ([bb75e98](https://github.com/stainless-api/stainless-api-cli/commit/bb75e986444393f502c552b794eba65a295c6dc7))
-* **internal:** codegen related update ([e214b20](https://github.com/stainless-api/stainless-api-cli/commit/e214b2087a80dea5a66872a1272713eacd44a2ba))
-* **internal:** codegen related update ([8587cc5](https://github.com/stainless-api/stainless-api-cli/commit/8587cc5e08b5887eba04bdd7260de958d7c24943))
-* move sdkjson generation api out of v0 scope ([0c7361f](https://github.com/stainless-api/stainless-api-cli/commit/0c7361f9a4e00af8ae6d65a90c1a34cffd586a38))
-
-## 0.1.0-alpha.24 (2025-07-02)
-
-Full Changelog: [v0.1.0-alpha.23...v0.1.0-alpha.24](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.23...v0.1.0-alpha.24)
-
-### Features
-
-* **api:** manual updates ([1f158e2](https://github.com/stainless-api/stainless-api-cli/commit/1f158e21673453f97f17ca4935f5a1dad3f7ec0f))
-
-
-### Chores
-
-* bump version ([38b149b](https://github.com/stainless-api/stainless-api-cli/commit/38b149bd2a66c6604410c0924f710caa9866fb81))
-* **internal:** version bump ([aef7105](https://github.com/stainless-api/stainless-api-cli/commit/aef7105c94e71f8c56c770be02c3b5f010904389))
-* **internal:** version bump ([8d128be](https://github.com/stainless-api/stainless-api-cli/commit/8d128be1d6ef72eb019d80d165427f7f34d5e8d1))
-
-## 0.1.0-alpha.23 (2025-06-30)
-
-Full Changelog: [v0.1.0-alpha.22...v0.1.0-alpha.23](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.22...v0.1.0-alpha.23)
-
-### Features
-
-* improve project creation with config download and OpenAPI validation ([70f48ec](https://github.com/stainless-api/stainless-api-cli/commit/70f48ec8b2376826205c0d3fc631e819d5561ea7))
-
-
-### Chores
-
-* bump go sdk version ([fd6ea6a](https://github.com/stainless-api/stainless-api-cli/commit/fd6ea6a0d98f6e10232a44fa021c3cc5e0a77369))
-* **ci:** only run for pushes and fork pull requests ([bd18456](https://github.com/stainless-api/stainless-api-cli/commit/bd184563ba5daade90637ccf945436f015e58d69))
-
-## 0.1.0-alpha.22 (2025-06-26)
-
-Full Changelog: [v0.1.0-alpha.21...v0.1.0-alpha.22](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.21...v0.1.0-alpha.22)
-
-### Features
-
-* add mcp command ([82f9ac7](https://github.com/stainless-api/stainless-api-cli/commit/82f9ac79d3025e10cab1f91f790d72ed75b30cb1))
-* **api:** manual updates ([8809e1c](https://github.com/stainless-api/stainless-api-cli/commit/8809e1c1b087b2f87e57f20d341b0f19786e1d31))
-
-
-### Bug Fixes
-
-* change stainlessv0 import to stainless ([bb69895](https://github.com/stainless-api/stainless-api-cli/commit/bb698955e7a0107b45d4eef6d9fcdbcf820899dc))
-
-
-### Chores
-
-* update go sdk ([18af766](https://github.com/stainless-api/stainless-api-cli/commit/18af766bf7046273ff3e4d7ae0194962d7b6a8e2))
-
-## 0.1.0-alpha.21 (2025-06-23)
-
-Full Changelog: [v0.1.0-alpha.20...v0.1.0-alpha.21](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.20...v0.1.0-alpha.21)
-
-### Features
-
-* **api:** add diagnostics endpoint ([5bb2beb](https://github.com/stainless-api/stainless-api-cli/commit/5bb2beb07061e9699818db4858c1634223bcaf3d))
-
-
-### Chores
-
-* bump go sdk version ([a72a797](https://github.com/stainless-api/stainless-api-cli/commit/a72a79734aa7afd8fe25ae80ff963e688a55ede0))
-
-## 0.1.0-alpha.20 (2025-06-23)
-
-Full Changelog: [v0.1.0-alpha.19...v0.1.0-alpha.20](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.19...v0.1.0-alpha.20)
-
-### Chores
-
-* fix installation command in README ([b975888](https://github.com/stainless-api/stainless-api-cli/commit/b975888337c812bac92ad2fde27d4b5fa61a583f))
-* remove openapi spec ([f4b0c0b](https://github.com/stainless-api/stainless-api-cli/commit/f4b0c0b892990d82f432c5c43ce7459bdda3febd))
-
-## 0.1.0-alpha.19 (2025-06-20)
-
-Full Changelog: [v0.1.0-alpha.18...v0.1.0-alpha.19](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.18...v0.1.0-alpha.19)
-
-### Chores
-
-* bump go package version ([abc91cb](https://github.com/stainless-api/stainless-api-cli/commit/abc91cb66f1e668c1e55f867ef2fbe4e22d6b61c))
-* **internal:** codegen related update ([e84af71](https://github.com/stainless-api/stainless-api-cli/commit/e84af710aeaec0674afcef3d4eba4e5d3bbe5e71))
-
-## 0.1.0-alpha.18 (2025-06-19)
-
-Full Changelog: [v0.1.0-alpha.17...v0.1.0-alpha.18](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.17...v0.1.0-alpha.18)
-
-### Chores
-
-* run go mod tidy ([014b38b](https://github.com/stainless-api/stainless-api-cli/commit/014b38b3c5d50367a74eba773b8eb9c786325d5d))
-
-## 0.1.0-alpha.17 (2025-06-19)
-
-Full Changelog: [v0.1.0-alpha.16...v0.1.0-alpha.17](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.16...v0.1.0-alpha.17)
-
-### Features
-
-* **api:** make project nullable ([d51a660](https://github.com/stainless-api/stainless-api-cli/commit/d51a660892fa1b5196f37c8a4c297788c2ad7683))
-
-
-### Chores
-
-* bump go sdk version ([3865229](https://github.com/stainless-api/stainless-api-cli/commit/38652297409fbc08d4990fd631d0ee9d828f0005))
-* **internal:** codegen related update ([5c194ff](https://github.com/stainless-api/stainless-api-cli/commit/5c194ff980c215b29ff16acef55cc0655d710537))
-
-## 0.1.0-alpha.16 (2025-06-19)
-
-Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
-
-### Features
-
-* polish around logging ([38fec48](https://github.com/stainless-api/stainless-api-cli/commit/38fec484c830ae09ee32fd3f26ef19e6cf020eca))
-
-## 0.1.0-alpha.15 (2025-06-18)
-
-Full Changelog: [v0.1.0-alpha.14...v0.1.0-alpha.15](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.14...v0.1.0-alpha.15)
-
-### Features
-
-* add workspace status command ([adbc44f](https://github.com/stainless-api/stainless-api-cli/commit/adbc44f0539114437690008d87f16fa4a3ce0a4d))
-* make branch parameter required for builds create ([0735363](https://github.com/stainless-api/stainless-api-cli/commit/07353638344ae98aaeff14e107730945ea3ff6ab))
-* polish around logging ([e969a2d](https://github.com/stainless-api/stainless-api-cli/commit/e969a2dc7356dd4b9b0864f963a582dfbed43344))
-* polish around logging ([a3fbc71](https://github.com/stainless-api/stainless-api-cli/commit/a3fbc71f38a195885b405aad8bec0c423694d692))
-
-
-### Chores
-
-* **internal:** codegen related update ([2dd834f](https://github.com/stainless-api/stainless-api-cli/commit/2dd834fed74e180a2ea70a4b8edf0bbb84a76d25))
-
-## 0.1.0-alpha.14 (2025-06-17)
-
-Full Changelog: [v0.1.0-alpha.13...v0.1.0-alpha.14](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.13...v0.1.0-alpha.14)
-
-### Features
-
-* add --openapi-spec and --stainless-config flags to workspace init ([530581e](https://github.com/stainless-api/stainless-api-cli/commit/530581e8ee3bd6d52b4a3745d229de40f87e4167))
-* also automatically find openapi.json ([14eeeb4](https://github.com/stainless-api/stainless-api-cli/commit/14eeeb4c3635645059243d80509e4da7e05db28a))
-* **api:** manual updates ([f4e6172](https://github.com/stainless-api/stainless-api-cli/commit/f4e61722f341bb7248e40dc22473408e7eef5b05))
-* flesh out project create form ([c773199](https://github.com/stainless-api/stainless-api-cli/commit/c77319958ee6b285bd74191e1535a91bc77fbfce))
-* sdkjson generation API ([9f908f1](https://github.com/stainless-api/stainless-api-cli/commit/9f908f1ff8be1c8455c533f0e494a5b6cc5cf4b2))
-
-## 0.1.0-alpha.13 (2025-06-17)
-
-Full Changelog: [v0.1.0-alpha.12...v0.1.0-alpha.13](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.12...v0.1.0-alpha.13)
-
-### Chores
-
-* **ci:** enable for pull requests ([3539b82](https://github.com/stainless-api/stainless-api-cli/commit/3539b82e2606cc2252ed808bf4feff883cab21c8))
-* **internal:** codegen related update ([567a6e6](https://github.com/stainless-api/stainless-api-cli/commit/567a6e653a6ca70db50cf9cc80ac6deaa64be97a))
-
-## 0.1.0-alpha.12 (2025-06-16)
-
-Full Changelog: [v0.1.0-alpha.11...v0.1.0-alpha.12](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.11...v0.1.0-alpha.12)
-
-### Features
-
-* add build/upload steps to builds api ([4573934](https://github.com/stainless-api/stainless-api-cli/commit/45739343a28e9615e62e0c5126d1d66715212df9))
-* add platform headers ([ca381b4](https://github.com/stainless-api/stainless-api-cli/commit/ca381b436607c3a7801b74e91a9147a2b59378bc))
-* **api:** add v0 project create api ([a40eca6](https://github.com/stainless-api/stainless-api-cli/commit/a40eca6419d7ab8159491e861cde86d3e779b0a0))
-* **api:** manual updates ([ef33c30](https://github.com/stainless-api/stainless-api-cli/commit/ef33c30512ca63d63380eb3f7c118e315696b2bc))
-* **api:** manual updates ([80a6fb5](https://github.com/stainless-api/stainless-api-cli/commit/80a6fb50820cd4766359bcf74daccf72f44fad59))
-
-
-### Bug Fixes
-
-* changes har request format for snippets API some more ([4b2a898](https://github.com/stainless-api/stainless-api-cli/commit/4b2a898f947b7a4e000e758eb28cea5c00950687))
-* fix type errors ([d5e1ae3](https://github.com/stainless-api/stainless-api-cli/commit/d5e1ae3f6c2566a42400a0a18394266a700f7463))
-
-
-### Chores
-
-* bump go package to 0.6.0 ([36a231d](https://github.com/stainless-api/stainless-api-cli/commit/36a231d0c7cb28e4111e9cbc3ac3c78833a340be))
-* **internal:** codegen related update ([a108d1a](https://github.com/stainless-api/stainless-api-cli/commit/a108d1ad99e6bfd3469a8cecf48b4b299b199796))
-* **internal:** codegen related update ([894c558](https://github.com/stainless-api/stainless-api-cli/commit/894c558dac1b497c69e1696453b9672bb923a0d9))
-
-
-### Refactors
-
-* move build_target_outputs to builds.target_outputs ([a085509](https://github.com/stainless-api/stainless-api-cli/commit/a08550995142a7f45786b9e33b3d20360068f2ec))
-
-## 0.1.0-alpha.11 (2025-06-02)
-
-Full Changelog: [v0.1.0-alpha.10...v0.1.0-alpha.11](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.10...v0.1.0-alpha.11)
-
-### Features
-
-* **api:** add diagnostics to build object ([fbbf7eb](https://github.com/stainless-api/stainless-api-cli/commit/fbbf7eba1eb3c06a9040a5e30904521a26021fa2))
-
-
-### Chores
-
-* make tap installation command shorter ([e8b060c](https://github.com/stainless-api/stainless-api-cli/commit/e8b060c69eb65b9828c863f97bd8fd4d064f7c0f))
-
-## 0.1.0-alpha.10 (2025-05-30)
-
-Full Changelog: [v0.1.0-alpha.9...v0.1.0-alpha.10](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.9...v0.1.0-alpha.10)
-
-### Bug Fixes
-
-* link auth and workspace subcommands to main CLI ([e73a657](https://github.com/stainless-api/stainless-api-cli/commit/e73a657b89ced3d651a82185755aa8d56c44c319))
-
-
-### Chores
-
-* add completions to .gitignore ([acf78a9](https://github.com/stainless-api/stainless-api-cli/commit/acf78a9bdd09c08d7c3846a465f50a7b1d070922))
-* improve readme ([bf63975](https://github.com/stainless-api/stainless-api-cli/commit/bf63975c1fd32b59ae75bf1e6d345be584aae53d))
-
-## 0.1.0-alpha.9 (2025-05-30)
-
-Full Changelog: [v0.1.0-alpha.8...v0.1.0-alpha.9](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.8...v0.1.0-alpha.9)
-
-### Features
-
-* change --project-name flag to --project in workspace init command ([b1131e6](https://github.com/stainless-api/stainless-api-cli/commit/b1131e6259052b592af5b5a65f859357215a74e4))
-* enhance workspace init with auto-detection and relative path resolution ([df091f0](https://github.com/stainless-api/stainless-api-cli/commit/df091f0fc109245407619bcae02e107ef5d6b28e))
-
-
-### Chores
-
-* add completions to release ([553394c](https://github.com/stainless-api/stainless-api-cli/commit/553394cbc05009671d5eef31e750a7b605ae7393))
-* **internal:** codegen related update ([b90b5a6](https://github.com/stainless-api/stainless-api-cli/commit/b90b5a63cb1ecab77ac27ab3200b7cfa440e83c8))
-
-## 0.1.0-alpha.8 (2025-05-29)
-
-Full Changelog: [v0.1.0-alpha.7...v0.1.0-alpha.8](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.7...v0.1.0-alpha.8)
-
-### Features
-
-* **api:** manual updates ([27eb403](https://github.com/stainless-api/stainless-api-cli/commit/27eb403a9a2798555385c5ccb68c4b39080d40c0))
-
-
-### Refactors
-
-* move files into pkg/cmd ([1cdcbf4](https://github.com/stainless-api/stainless-api-cli/commit/1cdcbf46ca7f84c37b7e387a20f7a9c303498083))
-
-## 0.1.0-alpha.7 (2025-05-28)
-
-Full Changelog: [v0.1.0-alpha.6...v0.1.0-alpha.7](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.6...v0.1.0-alpha.7)
-
-### Chores
-
-* **internal:** codegen related update ([d50536d](https://github.com/stainless-api/stainless-api-cli/commit/d50536d13567bd394438d2521f00adb41d565037))
-
-## 0.1.0-alpha.6 (2025-05-28)
-
-Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)
-
-### Features
-
-* change projectName to project ([6ff942e](https://github.com/stainless-api/stainless-api-cli/commit/6ff942e73aa932b0986f13bdc28a6eef5f52e124))
-
-
-### Chores
-
-* add macos secrets to github workflwo ([cfb8c55](https://github.com/stainless-api/stainless-api-cli/commit/cfb8c55e2b5a61ffb27dd565f6d30d1c3705a993))
-
-## 0.1.0-alpha.5 (2025-05-23)
-
-Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
-
-### Features
-
-* add preloading of the stainless config and openapi path ([37c089e](https://github.com/stainless-api/stainless-api-cli/commit/37c089eaf6df1150fa708cbccec3098b766e8417))
-* add workspace command ([ad64eb7](https://github.com/stainless-api/stainless-api-cli/commit/ad64eb739a5ac2202e0fc7c720327945db7d679a))
-
-## 0.1.0-alpha.4 (2025-05-23)
-
-Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
-
-### Features
-
-* **api:** change v0 path param projectName -&gt; project ([f4d71d2](https://github.com/stainless-api/stainless-api-cli/commit/f4d71d2a7329db59b1a9fa6d341619ab0532db6b))
-* **api:** manual updates ([ad21d1e](https://github.com/stainless-api/stainless-api-cli/commit/ad21d1e0ee263bda24f88823c31f998295c842a2))
-* **api:** manual updates ([2539725](https://github.com/stainless-api/stainless-api-cli/commit/253972559414ee57ef40cfcfc989fd5ea4e4cc27))
-
-
-### Refactors
-
-* minor refactor of method bodies ([8a3745d](https://github.com/stainless-api/stainless-api-cli/commit/8a3745dd7415ac36eeba2ec8b54e695845ffc9b5))
-
-## 0.1.0-alpha.3 (2025-05-22)
-
-Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
-
-### Features
-
-* add readme ([517510b](https://github.com/stainless-api/stainless-api-cli/commit/517510b292283dff91a6f6403a133200050a49b2))
-* **api:** add build compare to v0 ([ce9328e](https://github.com/stainless-api/stainless-api-cli/commit/ce9328e38387835ac55410e401194dc63d4e0fd9))
-* **api:** bump go sdk version ([8500bf3](https://github.com/stainless-api/stainless-api-cli/commit/8500bf36df104935d6f63e3fd6ef651f21a253df))
-* **api:** enable macos publishing ([c49364b](https://github.com/stainless-api/stainless-api-cli/commit/c49364b09ca3eb23f01ab254a1ec2c5b10a67a26))
-
-
-### Bug Fixes
-
-* fix custom code ([7d5ba04](https://github.com/stainless-api/stainless-api-cli/commit/7d5ba043c02683f4cf75c09029d65c136e39692e))
-* update request schema for Postman webhook ([a9c5de3](https://github.com/stainless-api/stainless-api-cli/commit/a9c5de30d3ac155e9be266f29a35de13e7a84edc))
-
-
-### Chores
-
-* **internal:** codegen related update ([81448ca](https://github.com/stainless-api/stainless-api-cli/commit/81448cab092f0f1b50e1613c100f2fc2c97770d3))
-* **internal:** codegen related update ([ac9557a](https://github.com/stainless-api/stainless-api-cli/commit/ac9557a75a32c0f838ab920648ef475969784cd8))
-* **internal:** codegen related update ([4a1d74a](https://github.com/stainless-api/stainless-api-cli/commit/4a1d74ae1856a1375dbf74699d80823e5b5fb0cd))
-
-## 0.1.0-alpha.2 (2025-04-30)
-
-Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/stainless-api/stainless-api-cli/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
-
-### Features
-
-* Add wait flag and polling mechanism for build completion ([960b063](https://github.com/stainless-api/stainless-api-cli/commit/960b063ce27de75fd4c847e69b78b2c0610c2ac1))
-
-
-### Chores
-
-* bump go sdk version ([3cbc3e4](https://github.com/stainless-api/stainless-api-cli/commit/3cbc3e46f7b8910037fa947e712e92bf05df5fc7))
-
-## 0.1.0-alpha.1 (2025-04-30)
-
-Full Changelog: [v0.0.1-alpha.0...v0.1.0-alpha.1](https://github.com/stainless-api/stainless-api-cli/compare/v0.0.1-alpha.0...v0.1.0-alpha.1)
-
-### Features
-
-* add typescript ([7a35228](https://github.com/stainless-api/stainless-api-cli/commit/7a3522871cb71d0511e8066d8c7052731d0fe56a))
-* **api:** configs ([24361de](https://github.com/stainless-api/stainless-api-cli/commit/24361de65a1e8f72b1f7fda391e158f6737c7691))
-* **api:** fix enum name conflict maybe ([e70ad16](https://github.com/stainless-api/stainless-api-cli/commit/e70ad1613201ddcbc500c372f904fd5dd6b33670))
-* **api:** manual updates ([640c152](https://github.com/stainless-api/stainless-api-cli/commit/640c152a0fa8a2de1d8f90e6fe7588a73f8dd06b))
-* **api:** manual updates ([d7fa9ae](https://github.com/stainless-api/stainless-api-cli/commit/d7fa9ae3231e881206843cd2044c1657f48c3455))
-* **api:** manual updates ([aeaafee](https://github.com/stainless-api/stainless-api-cli/commit/aeaafee818795dbb22170c3eb778aa6a88ec3815))
-* **api:** manual updates ([c694b82](https://github.com/stainless-api/stainless-api-cli/commit/c694b821b6720263e512c35d9e6c2fe71cb504f5))
-* **api:** manual updates ([79ceae1](https://github.com/stainless-api/stainless-api-cli/commit/79ceae11587809ff66d89987cb43767890976727))
-* **api:** manual updates ([c654f3d](https://github.com/stainless-api/stainless-api-cli/commit/c654f3dd0ebc143f724d7456920115e7eeff3543))
-* **api:** manual updates ([69fd666](https://github.com/stainless-api/stainless-api-cli/commit/69fd666912c10edf82d9fac0b9a34e8a8201c0fd))
-* **api:** manual updates ([514327b](https://github.com/stainless-api/stainless-api-cli/commit/514327b63421852a37eb64177e57987f64580620))
-* **api:** manual updates ([1cc704d](https://github.com/stainless-api/stainless-api-cli/commit/1cc704d81c9bde5de6d4a0049d58868701919ec6))
-* **api:** manual updates ([dfc8fa2](https://github.com/stainless-api/stainless-api-cli/commit/dfc8fa2e632544cf63d50ec02143ffe20cf30773))
-* **api:** manual updates ([611beb0](https://github.com/stainless-api/stainless-api-cli/commit/611beb0f2fcff7fc46609864b0b51a102a825aad))
-* **api:** manual updates ([0aeaa78](https://github.com/stainless-api/stainless-api-cli/commit/0aeaa78a2e8f59e8466cd0df451ee551245b4ef4))
-* **api:** manual updates ([bc90b96](https://github.com/stainless-api/stainless-api-cli/commit/bc90b965b2df3c688bad5cef93cda86aaf228edf))
-* **api:** manual updates ([15bda00](https://github.com/stainless-api/stainless-api-cli/commit/15bda00e341f32b2fa2a3ac059c311c014a17863))
-* **api:** manual updates ([f598f10](https://github.com/stainless-api/stainless-api-cli/commit/f598f10545abbedca7db1a8e59c19a21f3393c44))
-* **api:** manual updates ([947c01a](https://github.com/stainless-api/stainless-api-cli/commit/947c01ac614c6a0694cad2980150e9aaa6b8b76d))
-* **api:** manual updates ([676ed23](https://github.com/stainless-api/stainless-api-cli/commit/676ed23f267362057b36797fed487db9beea3e26))
-* **api:** parent build id ([540a1a0](https://github.com/stainless-api/stainless-api-cli/commit/540a1a06aef7294860f53326accc85379695b092))
-* **api:** remove discriminator thing ([b87d671](https://github.com/stainless-api/stainless-api-cli/commit/b87d671eb9cb433d2e25e1e642bd65101f5c5012))
-* **api:** rename api key ([b7e9c79](https://github.com/stainless-api/stainless-api-cli/commit/b7e9c790166bea892b438d58fe1c09a3fc9158ac))
-* **api:** update via SDK Studio ([57b41f3](https://github.com/stainless-api/stainless-api-cli/commit/57b41f3587fb39b81719ec363c9c8a559c45eb70))
-* **api:** update via SDK Studio ([8e817cc](https://github.com/stainless-api/stainless-api-cli/commit/8e817cc694231314fcd5f959497eeaade9819df5))
-* **api:** update via SDK Studio ([8e4f061](https://github.com/stainless-api/stainless-api-cli/commit/8e4f061fa25a4d1847fc0025bc9dfb28fdc12f8a))
-* **api:** update via SDK Studio ([#2](https://github.com/stainless-api/stainless-api-cli/issues/2)) ([10296a9](https://github.com/stainless-api/stainless-api-cli/commit/10296a982896077aa6923a67e697ba984177ef79))
-* **api:** update via SDK Studio ([#4](https://github.com/stainless-api/stainless-api-cli/issues/4)) ([0380cc7](https://github.com/stainless-api/stainless-api-cli/commit/0380cc735be7df8284ab846dc1e78ab7d56f7942))
-* **api:** use correct hashes ([fe39102](https://github.com/stainless-api/stainless-api-cli/commit/fe391029e2b2cfd7f56fbdeb7c6e3fe4b5efa86c))
-* change list endpoint ([9943696](https://github.com/stainless-api/stainless-api-cli/commit/99436969643e83cf65d2cb9d06bf696225d0bc01))
-* use urfave/cli library ([b1ae8e7](https://github.com/stainless-api/stainless-api-cli/commit/b1ae8e7ede73da7327e4b6764503e9152175923e))
-
-
-### Bug Fixes
-
-* don't overwrite headers ([#5](https://github.com/stainless-api/stainless-api-cli/issues/5)) ([2680134](https://github.com/stainless-api/stainless-api-cli/commit/2680134b981409ec9bdb5acaed2cf57c7cfb61be))
-
-
-### Chores
-
-* configure releases ([af7fad0](https://github.com/stainless-api/stainless-api-cli/commit/af7fad0fe84224aac40b03196412c3e285c57769))
-* go live ([#1](https://github.com/stainless-api/stainless-api-cli/issues/1)) ([c9feb17](https://github.com/stainless-api/stainless-api-cli/commit/c9feb179487869081f1632c06f437220e74c5d5d))
-* **internal:** codegen related update ([ec4f098](https://github.com/stainless-api/stainless-api-cli/commit/ec4f098eb4bb7a177acf30900dabc3b38ce08ca4))
-* **internal:** codegen related update ([5d4d480](https://github.com/stainless-api/stainless-api-cli/commit/5d4d480936c1921673e32f21e92bcfaa63944913))
-
-
-### Refactors
-
-* split up completion target into multiple lines ([#3](https://github.com/stainless-api/stainless-api-cli/issues/3)) ([caa5a30](https://github.com/stainless-api/stainless-api-cli/commit/caa5a300c058762fababf68a5082c43c53f65b32))
+* change semantics of downloadStainlessConfig ([2e01870](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/2e018701e3a0b4d827c787c39935f2a306717a99))
+* clean up file flags ([8e2fd32](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/8e2fd329d56a25424f62db9c2e28ba1d1ca2484f))
+* extract console ([d988b4f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/d988b4fe19b936fb8aab7ecd29fd33469ff372de))
+* extract logic out to stainlessutils.go ([16bea83](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/16bea8314364b2b5eec3e224b38a394142fb87d4))
+* extract logic to authconfig.go ([917bc1a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/917bc1ad1fbe78d26ebe63accfdc662fd3160104))
+* extract logic to workspaceconfig.go ([84d9d2d](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/84d9d2d440f2dc37388bc648084f2eae0d1e1890))
+* extract stainlessutils ([1baa5cf](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1baa5cfeb78a98c48e2edefc4a155f97b20ecfe8))
+* extract stainlessviews ([912892e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/912892e96f7e3cef49e6dc21a0a35bfee7b8e60c))
+* improve scrollback content viewer ([1afcb2f](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1afcb2f768790aaa647ad4608dd5edf29bf59ad2))
+* optimize pipeline rendering ([051f5ef](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/051f5ef2811b96f4b9d099046dde55b310e1f16b))
+* remove retrying from config download ([617504a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/617504a423e27646fea0f8cac0a8e0e2817d43e4))
+* rename commit step to codegen ([1db3b4e](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/1db3b4eb022ce49d38d95a48304c4be9dbbe8f43))
+* rename getCompletedTargets to getTargetInfo ([6c118e0](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/6c118e0d3ed3f4fbc2f3cf6d53ab79aabe80faa3))
+* significantly refactor builds viewer ([38f9d33](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/38f9d33bf07f855cea47c8010abc8c16fa522351))
+* simplify AuthConfig interface ([b7b23d7](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/b7b23d74e095ecc0fe07a678fb3db35348a43c17))
+* simplify config threading ([68022b2](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/68022b201872f7c6309ba557e7cd82e2f3eadd50))
+* simplify getStepSymbol ([fe5e51a](https://github.com/irrigationsolutions2391-pixel/stainless-api-cli/commit/fe5e51a75e9947edd0be7eea16dee351e0bd65ed))

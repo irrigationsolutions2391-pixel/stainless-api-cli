@@ -59,9 +59,6 @@
       "hidden": true
     }
   ],
-  "release-type": "simple",
-  "extra-files": [
-    "pkg/cmd/version.go",
-    "README.md"
-  ]
+  "release-type": "node",
+  "extra-files": ["src/version.ts", "README.md"]
 }
