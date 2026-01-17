@@ -1,6 +1,6 @@
 {
   "name": "ancient-healings-pro",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The official TypeScript library for the Ancient Healings Pro API",
   "author": "Ancient Healings Pro <>",
   "types": "dist/index.d.ts",
