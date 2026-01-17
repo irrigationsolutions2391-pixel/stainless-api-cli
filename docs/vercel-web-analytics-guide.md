@@ -11,24 +11,24 @@ This guide will help you get started with using Vercel Web Analytics on your pro
 - The Vercel CLI installed. If you don't have it, you can install it using the following command:
   <CodeBlock>
   <Code tab="pnpm">
-  \`bash
+  ```bash
   pnpm i vercel
-  \`
+  ```
   </Code>
   <Code tab="yarn">
-  \`bash
+  ```bash
   yarn i vercel
-  \`
+  ```
   </Code>
   <Code tab="npm">
-  \`bash
+  ```bash
   npm i vercel
-  \`
+  ```
   </Code>
   <Code tab="bun">
-  \`bash
+  ```bash
   bun i vercel
-  \`
+  ```
   </Code>
   </CodeBlock>
 
@@ -44,24 +44,24 @@ This guide will help you get started with using Vercel Web Analytics on your pro
   Using the package manager of your choice, add the `@vercel/analytics` package to your project:
   <CodeBlock>
   <Code tab="pnpm">
-  \`bash
+  ```bash
   pnpm i @vercel/analytics
-  \`
+  ```
   </Code>
   <Code tab="yarn">
-  \`bash
+  ```bash
   yarn i @vercel/analytics
-  \`
+  ```
   </Code>
   <Code tab="npm">
-  \`bash
+  ```bash
   npm i @vercel/analytics
-  \`
+  ```
   </Code>
   <Code tab="bun">
-  \`bash
+  ```bash
   bun i @vercel/analytics
-  \`
+  ```
   </Code>
   </CodeBlock>
 
