@@ -1,6 +1,6 @@
 {
   "name": "phoenixforgeai-typ",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The official TypeScript library for the Phoenixforgeai Typ API",
   "author": "Phoenixforgeai Typ <>",
   "types": "dist/index.d.ts",
