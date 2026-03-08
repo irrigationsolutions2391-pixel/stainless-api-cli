@@ -1,5 +1,19 @@
 # Deployment Guide
 
+## Important Notice
+
+> **SUPABASE PAUSED UNTIL APRIL 4, 2026**
+> 
+> The Supabase database is currently paused and will be reactivated on April 4, 2026.
+> Until then, database-dependent features will not function. Plan your staging/production deployment accordingly.
+
+## Production Domain
+
+- **Staging**: `stainless-api-cli.vercel.app`
+- **Production**: `irriggig.vercel.app` (to be configured after April 4)
+
+---
+
 ## Quick Deploy to Vercel
 
 ### Method 1: One-Click Deploy from v0 (Easiest)
@@ -88,10 +102,24 @@ All environment variables are automatically synced from v0 to Vercel. Verify the
 
 1. Go to Vercel Project > Settings > Environment Variables
 2. Confirm these exist:
+
+### Supabase (Required - Available after April 4, 2026)
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
    - `SUPABASE_SERVICE_ROLE_KEY`
    - All `POSTGRES_*` variables
+
+### Stripe (Payment Processing - Optional)
+   - `STRIPE_SECRET_KEY` - Your Stripe secret key
+   - `STRIPE_PUBLISHABLE_KEY` - Your Stripe publishable key
+   - `STRIPE_WEBHOOK_SECRET` - Webhook signing secret
+
+### Email Service (Optional)
+   - `SENDGRID_API_KEY` - For transactional emails (or use Supabase built-in email)
+   - `EMAIL_FROM` - Sender email address (e.g., noreply@irriggig.app)
+
+### AI Integration
+   - Uses Vercel AI Gateway (zero config)
 
 ## Troubleshooting
 
@@ -122,6 +150,30 @@ Your app includes Vercel Analytics by default:
 1. Go to Vercel Project > Analytics
 2. View real-time visitor data
 3. Monitor Web Vitals scores
+
+## Staging Environment Checklist
+
+Before going live (after April 4, 2026):
+
+- [ ] **Supabase Reactivation**: Unpause Supabase project
+- [ ] **Run Database Migrations**: Execute all SQL scripts in `/scripts` folder
+- [ ] **Verify Auth Flow**: Test login/signup with email confirmation
+- [ ] **Configure Redirect URLs in Supabase**:
+  - Site URL: `https://stainless-api-cli.vercel.app`
+  - Redirect URLs: `https://stainless-api-cli.vercel.app/auth/callback`
+- [ ] **Test Wallet/Payments**: Verify Stripe integration (if enabled)
+- [ ] **Email Delivery**: Confirm transactional emails are working
+- [ ] **Create Test Accounts**: Verify both worker and employer flows
+- [ ] **Load Demo Data**: Use "Create Demo Jobs" feature
+
+## Production Domain Transition
+
+When ready to move from staging to production:
+
+1. Update Vercel project domain to `irriggig.vercel.app`
+2. Update `NEXT_PUBLIC_APP_URL` and `NEXT_PUBLIC_SUPABASE_REDIRECT_URL`
+3. Update Supabase redirect URLs for the new domain
+4. Test full auth flow on production domain
 
 ## Support
 
