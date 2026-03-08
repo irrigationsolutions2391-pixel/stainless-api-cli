@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'FloresNoCode Forge V2 - Phoenix Forge AI',
+  description: 'El AI que forja apps millonarias. Prompt → App Completa + Graphs. FloresLandscapeDesignLlc',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -35,8 +35,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="font-sans antialiased">
+    <html lang="es" className="dark">
+      <body className="font-sans antialiased bg-background text-foreground">
         {children}
         <Analytics />
       </body>

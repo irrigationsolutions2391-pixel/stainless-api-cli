@@ -34,22 +34,27 @@ export default function Home() {
       <div className="max-w-5xl mx-auto px-4 py-8 md:p-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-3">
-            FLORESNOCODE FORGE V2
-          </h1>
-          <p className="text-xl md:text-3xl text-accent mb-2">
-            El AI que forja apps millonarias – Phoenix, AZ
+          <div className="mb-3">
+            <p className="text-sm text-muted-foreground font-semibold tracking-widest uppercase mb-2">
+              FloresNoCode Forge V2 by FloresLandscapeDesignLlc
+            </p>
+            <h1 className="text-5xl md:text-7xl font-bold text-primary mb-2">
+              Phoenix Forge AI
+            </h1>
+          </div>
+          <p className="text-xl md:text-3xl text-accent mb-4">
+            El AI que forja apps millonarias
           </p>
-          <p className="text-sm text-muted-foreground mt-3">
-            100% propiedad de FloresLandscapeDesignLlc • Hugo Vázquez Owner
+          <p className="text-lg text-muted-foreground mb-6">
+            Phoenix, AZ • Propiedad de Hugo Vázquez
           </p>
           <a 
-            href="https://PhoenixForgeAI.com" 
+            href="https://phoenixforgeai.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block mt-4 text-primary hover:underline font-semibold"
+            className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            PhoenixForgeAI.com
+            phoenixforgeai.com
           </a>
         </div>
 
