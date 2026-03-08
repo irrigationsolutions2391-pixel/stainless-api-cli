@@ -1,12 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+import { Language, t } from '@/lib/translations';
 
 interface OutputDisplayProps {
   output: string;
+  lang: Language;
 }
 
-export function OutputDisplay({ output }: OutputDisplayProps) {
+export function OutputDisplay({ output, lang }: OutputDisplayProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -16,11 +18,11 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
   };
 
   const handleExport = () => {
-    alert('ZIP descargado con codigo completo + graphs + Flutter export (en produccion real se descarga archivo)');
+    alert(t('exportCode', lang) + ' - ' + (lang === 'es' ? 'En produccion real se descarga archivo' : 'In production, file will download'));
   };
 
   const handlePublish = () => {
-    alert('App publicada en phoenixforgeai.com - Ya es real!');
+    alert(t('publishDomain', lang) + ' - phoenixforgeai.com');
   };
 
   return (
@@ -38,10 +40,10 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
           </div>
           <div>
             <h2 className="text-2xl md:text-3xl font-bold gradient-text">
-              App Forged Successfully
+              {t('appGenerated', lang)}
             </h2>
             <p className="text-sm text-muted-foreground mt-1">
-              Production-ready code with all integrations
+              {lang === 'es' ? 'Codigo listo para produccion con todas las integraciones' : 'Production-ready code with all integrations'}
             </p>
           </div>
         </div>
@@ -64,14 +66,14 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
         <div className="grid grid-cols-3 gap-4">
           <div className="glass-card rounded-xl p-4 text-center">
             <p className="text-2xl font-bold text-primary">{output.split('\n').length}</p>
-            <p className="text-xs text-muted-foreground">Lines</p>
+            <p className="text-xs text-muted-foreground">{lang === 'es' ? 'Lineas' : 'Lines'}</p>
           </div>
           <div className="glass-card rounded-xl p-4 text-center">
             <p className="text-2xl font-bold text-accent">{output.length}</p>
-            <p className="text-xs text-muted-foreground">Characters</p>
+            <p className="text-xs text-muted-foreground">{lang === 'es' ? 'Caracteres' : 'Characters'}</p>
           </div>
           <div className="glass-card rounded-xl p-4 text-center">
-            <p className="text-2xl font-bold text-chart-3">Ready</p>
+            <p className="text-2xl font-bold text-chart-3">{lang === 'es' ? 'Listo' : 'Ready'}</p>
             <p className="text-xs text-muted-foreground">Status</p>
           </div>
         </div>
@@ -87,14 +89,14 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
                 <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                Copied!
+                {t('copied', lang)}
               </>
             ) : (
               <>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
                 </svg>
-                Copy Code
+                {t('copyCode', lang)}
               </>
             )}
           </button>
@@ -105,7 +107,7 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
-            Export ZIP
+            {lang === 'es' ? 'Exportar ZIP' : 'Export ZIP'}
           </button>
           <button
             onClick={handlePublish}
@@ -116,7 +118,7 @@ export function OutputDisplay({ output }: OutputDisplayProps) {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Publish
+              {lang === 'es' ? 'Publicar' : 'Publish'}
             </div>
           </button>
         </div>
