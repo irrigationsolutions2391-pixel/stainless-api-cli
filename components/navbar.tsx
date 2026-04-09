@@ -53,9 +53,14 @@ export function Navbar() {
       className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <Droplet className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">IrrigGig AI</span>
+        <Link href="/" className="flex items-center space-x-2 group">
+          <div className="relative">
+            <Droplet className="h-7 w-7 text-primary group-hover:scale-110 transition-transform" />
+            <div className="absolute inset-0 bg-primary/20 blur-lg opacity-0 group-hover:opacity-100 transition-opacity" />
+          </div>
+          <span className="text-xl font-bold tracking-tight" style={{ fontFamily: "var(--font-display, inherit)" }}>
+            GigFlow Pro
+          </span>
         </Link>
 
         <div className="flex items-center gap-4">

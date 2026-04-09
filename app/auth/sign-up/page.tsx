@@ -88,7 +88,7 @@ export default function SignUpPage() {
       >
         <Card className="shadow-2xl">
           <CardHeader>
-            <CardTitle className="text-2xl">Join IrrigGig AI</CardTitle>
+            <CardTitle className="text-2xl">Join GigFlow Pro</CardTitle>
             <CardDescription>Create your account and start connecting</CardDescription>
           </CardHeader>
           <CardContent>
@@ -150,11 +150,11 @@ export default function SignUpPage() {
                     <div className="space-y-3 text-sm">
                       <p className="font-semibold">Platform Disclaimer:</p>
                       <p className="leading-relaxed">
-                        <strong>IrrigGig AI is ONLY a platform connecting users.</strong> We are NOT responsible for any
+                        <strong>GigFlow Pro is a platform connecting users.</strong> We are not responsible for any
                         job quality, payment disputes, injuries, damages, taxes, insurance, or legal compliance. All
                         users (homeowners, contractors, businesses) are <strong>fully responsible</strong> for their
                         actions, contracts, work quality, safety, insurance, taxes, and compliance with all laws.
-                        IrrigGig AI provides <strong>no warranties</strong> and disclaims all liability to the maximum
+                        GigFlow Pro provides <strong>no warranties</strong> and disclaims all liability to the maximum
                         extent permitted by law.
                       </p>
                       <p className="font-semibold mt-4">Large Projects Notice:</p>
@@ -185,7 +185,7 @@ export default function SignUpPage() {
                       />
                       <Label htmlFor="liability" className="text-sm leading-relaxed cursor-pointer">
                         <strong>I agree that I am solely responsible</strong> for everything related to my jobs and
-                        interactions. I understand IrrigGig AI is not liable for any outcomes.
+                        interactions. I understand GigFlow Pro is not liable for any outcomes.
                       </Label>
                     </div>
 

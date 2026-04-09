@@ -228,7 +228,7 @@ export default function PricingPage() {
 
         <div className="bg-gradient-to-br from-primary/10 to-blue-500/10 rounded-2xl p-8 border-2 border-primary/20">
           <div className="text-center mb-6">
-            <h2 className="text-3xl font-bold mb-2">Maximize Your Wealth with IrrigGig AI</h2>
+            <h2 className="text-3xl font-bold mb-2">Maximize Your Wealth with GigFlow Pro</h2>
             <p className="text-muted-foreground">
               The #1 platform designed to grow your business and increase your earnings
             </p>

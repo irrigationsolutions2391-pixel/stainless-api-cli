@@ -19,7 +19,7 @@ export function OnboardingCarousel({ onComplete }: OnboardingCarouselProps) {
 
   const steps = [
     {
-      title: "What brings you to IrrigGig AI?",
+      title: "What brings you to GigFlow Pro?",
       icon: User,
       options: [
         { value: "find_work", label: "I'm looking for irrigation/landscaping gigs", badge: "Contractor" },

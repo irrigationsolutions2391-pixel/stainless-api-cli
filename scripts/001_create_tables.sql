@@ -1,4 +1,4 @@
--- IrrigGig AI Database Schema
+-- GigFlow Pro Database Schema
 -- Users profiles table
 CREATE TABLE IF NOT EXISTS public.profiles (
   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,

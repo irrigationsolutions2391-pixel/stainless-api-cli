@@ -53,7 +53,7 @@ export default function LoginPage() {
         <Card className="shadow-2xl">
           <CardHeader>
             <CardTitle className="text-2xl">Welcome Back</CardTitle>
-            <CardDescription>Sign in to your IrrigGig AI account</CardDescription>
+            <CardDescription>Sign in to your GigFlow Pro account</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleLogin}>

@@ -20,7 +20,7 @@ export function LegalDisclaimerModal() {
   const [agreed, setAgreed] = useState(false)
 
   useEffect(() => {
-    const hasSeenDisclaimer = localStorage.getItem("irriggig_legal_disclaimer_seen")
+    const hasSeenDisclaimer = localStorage.getItem("gigflow_legal_disclaimer_seen")
     if (!hasSeenDisclaimer) {
       setOpen(true)
     }
@@ -28,7 +28,7 @@ export function LegalDisclaimerModal() {
 
   const handleAccept = () => {
     if (agreed) {
-      localStorage.setItem("irriggig_legal_disclaimer_seen", "true")
+      localStorage.setItem("gigflow_legal_disclaimer_seen", "true")
       setOpen(false)
     }
   }
@@ -49,7 +49,7 @@ export function LegalDisclaimerModal() {
             <div className="bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4">
               <h3 className="font-bold text-lg mb-2 text-yellow-900 dark:text-yellow-100">Platform Disclaimer</h3>
               <p className="text-yellow-900 dark:text-yellow-100 leading-relaxed">
-                <strong>IrrigGig AI is ONLY a platform connecting users.</strong> We are NOT responsible for any job
+                <strong>GigFlow Pro is a platform connecting users.</strong> We are not responsible for any job
                 quality, payment disputes, injuries, damages, taxes, insurance, or legal compliance.
               </p>
             </div>
@@ -75,7 +75,7 @@ export function LegalDisclaimerModal() {
             <div className="space-y-3">
               <h4 className="font-bold">Liability Disclaimer</h4>
               <p className="leading-relaxed">
-                IrrigGig AI provides <strong>no warranties</strong> and disclaims all liability to the{" "}
+                GigFlow Pro provides <strong>no warranties</strong> and disclaims all liability to the{" "}
                 <strong>maximum extent permitted by law</strong>. We do not:
               </p>
               <ul className="list-disc pl-6 space-y-2">
@@ -90,7 +90,7 @@ export function LegalDisclaimerModal() {
             <div className="space-y-3">
               <h4 className="font-bold">Large Project Notice</h4>
               <p className="leading-relaxed">
-                For large-scale, commercial, or industrial projects, IrrigGig AI and Flores Landscape Design LLC reserve
+                For large-scale, commercial, or industrial projects, GigFlow Pro and Flores Landscape Design LLC reserve
                 the right to contact users directly to discuss project requirements, resell opportunities, or assign
                 preferred contractors from our network.
               </p>
@@ -99,7 +99,7 @@ export function LegalDisclaimerModal() {
             <div className="bg-muted rounded-lg p-4">
               <h4 className="font-bold mb-2">Your Agreement</h4>
               <p className="leading-relaxed">
-                By using IrrigGig AI, you acknowledge that you have read, understood, and agree to accept all risks and
+                By using GigFlow Pro, you acknowledge that you have read, understood, and agree to accept all risks and
                 responsibilities associated with your use of the platform.
               </p>
             </div>
@@ -111,7 +111,7 @@ export function LegalDisclaimerModal() {
             <Checkbox id="agree" checked={agreed} onCheckedChange={(checked) => setAgreed(checked as boolean)} />
             <Label htmlFor="agree" className="text-sm leading-relaxed cursor-pointer">
               I have read and understand this disclaimer. I agree that I am solely responsible for everything related to
-              my jobs and interactions on IrrigGig AI. I understand that IrrigGig AI provides no warranties and is not
+              my jobs and interactions on GigFlow Pro. I understand that GigFlow Pro provides no warranties and is not
               liable for any outcomes.
             </Label>
           </div>
