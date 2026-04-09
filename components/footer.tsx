@@ -7,9 +7,9 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-2">IrrigGig AI</h3>
-            <p className="text-sm text-muted-foreground">
-              AI-powered marketplace connecting irrigation professionals with opportunities
+            <h3 className="font-bold text-xl mb-2" style={{ fontFamily: "var(--font-display, inherit)" }}>GigFlow Pro</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              The elite AI-powered marketplace where irrigation and landscaping professionals connect, earn, and build wealth.
             </p>
           </div>
           <div>
@@ -82,9 +82,9 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t">
           <p className="text-xs text-muted-foreground text-center leading-relaxed">
-            <strong>Platform Disclaimer:</strong> IrrigGig AI is ONLY a platform connecting users. We are NOT
+            <strong>Platform Disclaimer:</strong> GigFlow Pro is a platform connecting users. We are not
             responsible for job quality, disputes, injuries, damages, taxes, insurance, or legal compliance. Users are
-            fully responsible for their actions.
+            fully responsible for their actions. Please review our Terms of Service for complete details.
           </p>
         </div>
       </div>
